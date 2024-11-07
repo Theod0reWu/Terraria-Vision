@@ -1,9 +1,23 @@
 import torch
+import torch.nn as nn
 
+class EmbeddingNetwork(nn.Module):
+    def __init__(self, embedding_dim=128):
+        super(EmbeddingNetwork, self).__init__()
+        self.conv1 = nn.Conv2d(3, 32, kernel_size=3, padding=1)
+        self.conv2 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
+        self.conv3 = nn.Conv2d(64, 128, kernel_size=3, padding=1)
+        self.fc = nn.Linear(128 * 2 * 2, embedding_dim)  # Adjust for 16x16 input
 
-
-
-
+    def forward(self, x):
+        x = nn.ReLU()(self.conv1(x))
+        x = nn.MaxPool2d(2)(x)
+        x = nn.ReLU()(self.conv2(x))
+        x = nn.MaxPool2d(2)(x)
+        x = nn.ReLU()(self.conv3(x))
+        x = nn.AdaptiveAvgPool2d(1)(x)  # Average pooling for fixed-size output
+        x = x.view(x.size(0), -1)
+        return nn.functional.normalize(self.fc(x), p=2, dim=1)  # L2 normalized embedding
 
 class ContrastiveLoss(nn.Module):
     def __init__(self, margin=1.0):

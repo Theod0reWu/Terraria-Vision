@@ -1,3 +1,10 @@
+'''
+Given the terraria sprite sheets, formates the data by breaking each sheet into a directory.
+The sheets directory contains numbered .png's of each sprite.
+
+Assumes the sprite sheet contains 16x16 pixel sprites offset by 2 pixels. Downsamples the sprite to 8x8
+
+'''
 import os
 import re
 
@@ -27,14 +34,28 @@ for image_path in image_list:
 	# create_directory for each sprite sheet
 	filename = os.path.splitext(os.path.basename(image_path))[0]
 	filename = re.sub(r'[^0-9]+$', '', filename)
+
+	# removing after first digit found
+	idx, under_count = len(filename), 0
+	for i, char in enumerate(filename):
+		if char == '_':
+			under_count += 1
+		if under_count == 2:
+			idx = i
+			break
+	filename = filename[:idx]
+
 	new_dir = os.path.join(save_path, filename)
+
+	num = 0
 	if not os.path.exists(new_dir):
 		os.makedirs(new_dir)
-	
-	num = 0
+	else:
+		num = len(os.listdir(new_dir))
 	for r in range(int(rows)):
 		for c in range(int(cols)):
 			sprite = get_sprite(img, r, c)
+			sprite = downsample(sprite)
 
 			if not is_blank(sprite):
 				display(sprite, os.path.join(new_dir, str(num)+".png"))

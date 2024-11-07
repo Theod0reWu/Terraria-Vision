@@ -3,18 +3,19 @@ import cv2
 
 def display(img, path = None):
     '''
-        Given a cv2 image, displays the image using pyplot if path is None, otherwise saves to path
+        Given a cv2 image, displays the image using pyplot if path is None, otherwise saves the path using cv2
     '''
+    if (path):
+        cv2.imwrite(path, img)
+        return
+
     if (len(img.shape) > 2 and img.shape[2] == 3):
         img = img[:, :, ::-1]
     else:
         plt.gray()
     plt.axis("off")
     plt.imshow(img)
-    if (not path):
-        plt.show()
-    else:
-        plt.savefig(path)
+    plt.show()
 
 def get_sprite(img, x, y, incr = 16, offset = 2):
     '''
@@ -42,4 +43,4 @@ def get_dimensions(img, incr = 16, offset = 2):
     '''
         Given the increment and offset returns the number of rows and columns in a sprite sheet
     '''
-    return img.shape[0] / (incr + offset), img.shape[1] / (incr + offset)
+    return round(img.shape[0] / (incr + offset)), round(img.shape[1] / (incr + offset))
