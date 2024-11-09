@@ -4,6 +4,7 @@ import os
 import torch.optim as optim
 from torch.utils.data import DataLoader
 import torch
+from tqdm import tqdm
 
 
 dataset = PairDataset(os.path.join("..", "dataset"))
@@ -18,7 +19,7 @@ for epoch in range(num_epochs):
 
     model.train()
     epoch_loss = 0.0
-    for batch_idx, (img1, img2, labels) in enumerate(data_loader):
+    for batch_idx, (img1, img2, labels) in tqdm(enumerate(data_loader)):
 
         embedding1 = model(img1)
         embedding2 = model(img2)

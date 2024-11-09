@@ -3,6 +3,7 @@ import torch
 import os
 import numpy as np
 from torchvision.io import read_image
+from torchvision import transforms
 
 class PairDataset(Dataset):
     def __init__(self, path):
@@ -18,17 +19,22 @@ class PairDataset(Dataset):
         self.length = 0
         self.ranges = []
         self.dirnames = []
+        self.indices = []
+        self.transforms = transforms.Resize((8, 8))
 
         num_tiles = len(os.listdir(path))
         current = 0
         for tile_num in range(num_tiles):
             dirname = "Tiles_" + str(tile_num)
-            dir_len = len(os.listdir(os.path.join(path, dirname)))
-            if (dir_len > 0):
-                self.ranges.append((current, current + dir_len - 1))
-                current += dir_len
-                self.dirnames.append(dirname)
+            pathname = os.path.join(path, dirname)
+            if os.path.exists(pathname):
+                dir_len = len(os.listdir(pathname))
+                if (dir_len > 0):
+                    self.ranges.append([current, current + dir_len - 1])
+                    current += dir_len
+                    self.dirnames.append(dirname)
         self.length = current
+        self.ranges = np.array(self.ranges)
 
     def __len__(self):
         return self.length
@@ -48,12 +54,14 @@ class PairDataset(Dataset):
                 high = mid
         return None, None
     
-    def load_img(self, range, offset):
-        path_name = os.path.join("..", "dataset", f"Tiles_{range}", f"{offset}.png")
+    def load_img(self, dir_idx, offset):
+        path_name = os.path.join("..", "dataset", self.dirnames[dir_idx], f"{offset}.png")
         tensor_image = read_image(path_name)
 
         # normalize pixel values
         tensor_image = tensor_image.float() / 255
+        # resize to 8x8 (while training found few images that were 6x8)
+        tensor_image = self.transforms(tensor_image)
         return tensor_image
 
     """
@@ -69,23 +77,26 @@ class PairDataset(Dataset):
         if np.random.uniform(0, 1) < 0.5:
             # the chance of picking the same folder is fairly small so we can 
             # assume that this will give us different tile index
-            tr_idxs = np.random.randint(range(len(self.ranges)), size=2)
+            tr_idxs = np.random.randint(0, len(self.ranges), size=2)
         else:
             # else we get the two images from the same folder
-            tr_idxs = np.random.randint(0, len(self.ranges))[[0, 0]]
-        
-        tiles = self.ranges[tr_idxs]
+            tr_idxs = np.random.randint(0, len(self.ranges), size = (1))[[0,0]]
+
+        tiles = self.ranges[tr_idxs] - self.ranges[tr_idxs][:,0].reshape(-1, 1)
         # randomly choose image indices in their respecitve folders
-        first_offset = np.random.choice(range(*tiles[0]))
-        second_offset = np.random.choice(range(*tiles[1]))
+        images = []
+        for i in range(2):
+            offset = 0
+            if tiles[i][1]:
+                offset = np.random.randint(*tiles[i])
+            # read in images from disk and load into tensors
+            img = self.load_img(tr_idxs[i], offset)
+            images.append(img)
         
         # our label, if they're in the same folder label is 1 else 0
-        similarity = torch.tensor(tiles[0] == tiles[1])
-        # read in images from disk and load into tensors
-        first_img = self.load_img(tiles[0], first_offset)
-        second_img = self.load_img(tiles[1], second_offset)
+        similarity = torch.tensor(tr_idxs[0] == tr_idxs[1], dtype=torch.float32)
 
-        return first_img, second_img, similarity
+        return images[0], images[1], similarity
 
 if __name__ == "__main__":
     pd = PairDataset(os.path.join("..", "dataset"))
