@@ -100,9 +100,13 @@ class PairDataset(Dataset):
 
 if __name__ == "__main__":
     pd = PairDataset(os.path.join("..", "dataset"))
+    img1, img2, sim = pd.__getitem__(5)
+    print(img1, img2, sim)
+    """
     print(pd.ranges)
     print(pd.idx_to_img(0))
     print(pd.idx_to_img(pd.length - 1))
     print(pd.idx_to_img(100))
     print(pd.idx_to_img(200))
     print(pd.idx_to_img(500))
+    """
