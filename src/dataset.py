@@ -87,10 +87,11 @@ class PairDataset(Dataset):
 
         return first_img, second_img, similarity
 
-pd = PairDataset(os.path.join("..", "dataset"))
-print(pd.ranges)
-print(pd.idx_to_img(0))
-print(pd.idx_to_img(pd.length - 1))
-print(pd.idx_to_img(100))
-print(pd.idx_to_img(200))
-print(pd.idx_to_img(500))
+if __name__ == "__main__":
+    pd = PairDataset(os.path.join("..", "dataset"))
+    print(pd.ranges)
+    print(pd.idx_to_img(0))
+    print(pd.idx_to_img(pd.length - 1))
+    print(pd.idx_to_img(100))
+    print(pd.idx_to_img(200))
+    print(pd.idx_to_img(500))
