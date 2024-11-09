@@ -22,11 +22,14 @@ class PairDataset(Dataset):
         current = 0
         for tile_num in range(num_tiles):
             dirname = "Tiles_" + str(tile_num)
-            dir_len = len(os.listdir(os.path.join(path, dirname)))
-            if (dirlen > 0):
-                self.ranges.append((current, current + dir_len - 1))
-                current += dir_len
-                self.dirnames.append(dirname)
+            path_to_dir = os.path.join(path, dirname)
+
+            if os.path.exists(path_to_dir):
+                dir_len = len(os.listdir(path_to_dir))
+                if (dir_len > 0):
+                    self.ranges.append((current, current + dir_len - 1))
+                    current += dir_len
+                    self.dirnames.append(dirname)
         self.length = current
 
     def __len__(self):
