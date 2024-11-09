@@ -1,7 +1,7 @@
 from torch.utils.data import DataLoader, Dataset
 import torch
 import os
-import random
+import numpy as np
 from torchvision.io import read_image
 
 class PairDataset(Dataset):
@@ -64,18 +64,27 @@ class PairDataset(Dataset):
         
         return first_img, second_img, similarity
     """
-    def __getitem__(self, idx):
-        if random.uniform(0, 1) < 0.5:
-            first, second = idx % self.length, idx // self.length
-            first_img, second_img = self.idx_to_img(first), self.idx_to_img(second)
+    def __getitem__(self, _):
+        # we randomly choose to either get a similar or dissimilar image
+        if np.random.uniform(0, 1) < 0.5:
+            # the chance of picking the same folder is fairly small so we can 
+            # assume that this will give us different tile index
+            tr_idxs = np.random.randint(range(len(self.ranges)), size=2)
         else:
-            tr_idx = random.randint(0, len(self.ranges))
-            offsets = random.choices(range(*self.ranges[tr_idx]), k=2)
-            first_img, second_img = zip([tr_idx]*2, offsets)
+            # else we get the two images from the same folder
+            tr_idxs = np.random.randint(0, len(self.ranges))[[0, 0]]
         
-        similarity = torch.tensor(first_img[0] == second_img[0])
-        first_img = self.load_img(first_img[0], first_img[1])
-        second_img = self.load_img(second_img[0], second_img[1])
+        tiles = self.ranges[tr_idxs]
+        # randomly choose image indices in their respecitve folders
+        first_offset = np.random.choice(range(*tiles[0]))
+        second_offset = np.random.choice(range(*tiles[1]))
+        
+        # our label, if they're in the same folder label is 1 else 0
+        similarity = torch.tensor(tiles[0] == tiles[1])
+        # read in images from disk and load into tensors
+        first_img = self.load_img(tiles[0], first_offset)
+        second_img = self.load_img(tiles[1], second_offset)
+
         return first_img, second_img, similarity
 
 pd = PairDataset(os.path.join("..", "dataset"))
