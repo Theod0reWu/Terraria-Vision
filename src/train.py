@@ -19,7 +19,7 @@ for epoch in range(num_epochs):
 
     model.train()
     epoch_loss = 0.0
-    for batch_idx, (img1, img2, labels) in tqdm(enumerate(data_loader)):
+    for batch_idx, (img1, img2, labels) in tqdm(enumerate(data_loader), total=len(dataset) // 32):
 
         embedding1 = model(img1)
         embedding2 = model(img2)
