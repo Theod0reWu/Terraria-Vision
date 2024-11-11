@@ -7,7 +7,8 @@ import random
 
 IGNORE = {5, 15, 81, 95, 126, 133, 171, 216, 323, 324, 406, 442, 552, 567, 583, 584, 585, 586, 587, 588, 589, 596, 616, 634}
 
-class PairDataset(Dataset):
+class ImageData():
+
     def __init__(self, path):
         '''
             Creates the pair dataset for sprites. 
@@ -38,9 +39,6 @@ class PairDataset(Dataset):
                     self.dirnums.append(tile_num)
         self.length = current
 
-    def __len__(self):
-        return self.length * self.length - 1
-
     def idx_to_img(self, idx):
         low, high = 0, len(self.ranges)
         while (low < high):
@@ -60,12 +58,32 @@ class PairDataset(Dataset):
         tensor_image = read_image(path_name)
 
         # normalize pixel values
-        tensor_image = tensor_image.float() / 255
-        # resize to 8x8 (while training found few images that were 6x8)
-        # tensor_image = transforms.Resize((8, 8))(tensor_image)
+        tensor_image = tensor_image.float() / 255.0
         if (tensor_image.shape != torch.Size([3, 8, 8])):
             print(self.dirnames[tile_idx], img_idx)
         return tensor_image
+
+class TileDataset(ImageData):
+    '''
+        Not a torch dataset
+    '''
+    def __init__(self, path):
+        super(TileDataset, self).__init__(path)
+
+    def __len__(self):
+        return self.length
+
+    def __getitem__(self, idx):
+        img = self.idx_to_img(idx)
+        return self.load_image(img[0], img[1]), self.dirnums[img[0]]
+
+
+class PairDataset(ImageData, Dataset):
+    def __init__(self, path):
+        super(PairDataset, self).__init__(path)
+
+    def __len__(self):
+        return self.length * self.length - 1
 
     def __getitem__(self, idx):
         first, second = idx % self.length, idx // self.length
@@ -75,5 +93,8 @@ class PairDataset(Dataset):
 
 if __name__ == "__main__":
     pd = PairDataset("../dataset/")
-    for i in range(pd.length + 1):
-        pd[i]
+    # for i in range(pd.length + 1):
+    #     pd[i]
+
+    d = TileDataset("../dataset/")
+    print(len(d))
