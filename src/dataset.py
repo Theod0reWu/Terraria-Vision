@@ -1,7 +1,11 @@
 from torch.utils.data import DataLoader, Dataset
+from torchvision.io import read_image
+from torchvision import transforms
 import torch
 import os
 import random
+
+IGNORE = {5, 15, 81, 95, 126, 133, 171, 216, 323, 324, 406, 442, 552, 567, 583, 584, 585, 586, 587, 588, 589, 596, 616, 634}
 
 class PairDataset(Dataset):
     def __init__(self, path):
@@ -17,6 +21,7 @@ class PairDataset(Dataset):
         self.length = 0
         self.ranges = []
         self.dirnames = []
+        self.dirnums = []
 
         num_tiles = len(os.listdir(path))
         current = 0
@@ -24,16 +29,17 @@ class PairDataset(Dataset):
             dirname = "Tiles_" + str(tile_num)
             path_to_dir = os.path.join(path, dirname)
 
-            if os.path.exists(path_to_dir):
+            if tile_num not in IGNORE and os.path.exists(path_to_dir):
                 dir_len = len(os.listdir(path_to_dir))
                 if (dir_len > 0):
                     self.ranges.append((current, current + dir_len - 1))
                     current += dir_len
                     self.dirnames.append(dirname)
+                    self.dirnums.append(tile_num)
         self.length = current
 
     def __len__(self):
-        return self.length
+        return self.length * self.length - 1
 
     def idx_to_img(self, idx):
         low, high = 0, len(self.ranges)
@@ -49,18 +55,25 @@ class PairDataset(Dataset):
                 high = mid
         return None, None
 
+    def load_image(self, tile_idx, img_idx):
+        path_name = os.path.join(self.path, self.dirnames[tile_idx], f"{img_idx}.png")
+        tensor_image = read_image(path_name)
+
+        # normalize pixel values
+        tensor_image = tensor_image.float() / 255
+        # resize to 8x8 (while training found few images that were 6x8)
+        # tensor_image = transforms.Resize((8, 8))(tensor_image)
+        if (tensor_image.shape != torch.Size([3, 8, 8])):
+            print(self.dirnames[tile_idx], img_idx)
+        return tensor_image
+
     def __getitem__(self, idx):
-        first, second = idx % self.length, idx // length
+        first, second = idx % self.length, idx // self.length
         first_img, second_img = self.idx_to_img(first), self.idx_to_img(second)
         similarity = torch.tensor([first_img[0] == second_img[0]])
-        
-        return first_img, second_img, similarity
+        return self.load_image(first_img[0], first_img[1]), self.load_image(second_img[0], second_img[1]), similarity
 
-
-pd = PairDataset("../dataset/")
-print(pd.ranges)
-print(pd.idx_to_img(0))
-print(pd.idx_to_img(pd.length - 1))
-print(pd.idx_to_img(100))
-print(pd.idx_to_img(200))
-print(pd.idx_to_img(500))
+if __name__ == "__main__":
+    pd = PairDataset("../dataset/")
+    for i in range(pd.length + 1):
+        pd[i]
