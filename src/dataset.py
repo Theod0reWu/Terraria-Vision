@@ -1,11 +1,15 @@
 from torch.utils.data import DataLoader, Dataset
+from torchvision.io import read_image
 import torch
 import os
 import numpy as np
 from torchvision.io import read_image
-from torchvision import transforms
+from tqdm import tqdm
 
-class PairDataset(Dataset):
+IGNORE = {5, 15, 81, 95, 126, 133, 171, 216, 323, 324, 406, 442, 552, 567, 583, 584, 585, 586, 587, 588, 589, 596, 616, 634}
+
+class ImageData():
+
     def __init__(self, path):
         '''
             Creates the pair dataset for sprites. 
@@ -19,25 +23,23 @@ class PairDataset(Dataset):
         self.length = 0
         self.ranges = []
         self.dirnames = []
-        self.indices = []
-        self.transforms = transforms.Resize((8, 8))
+        self.dirnums = []
 
         num_tiles = len(os.listdir(path))
         current = 0
-        for tile_num in range(num_tiles):
+        for tile_num in tqdm(range(num_tiles)):
             dirname = "Tiles_" + str(tile_num)
-            pathname = os.path.join(path, dirname)
-            if os.path.exists(pathname):
-                dir_len = len(os.listdir(pathname))
+            path_to_dir = os.path.join(path, dirname)
+
+            if tile_num not in IGNORE and os.path.exists(path_to_dir):
+                dir_len = len(os.listdir(path_to_dir))
                 if (dir_len > 0):
-                    self.ranges.append([current, current + dir_len - 1])
+                    self.ranges.append((current, current + dir_len - 1))
                     current += dir_len
                     self.dirnames.append(dirname)
+                    self.dirnums.append(tile_num)
         self.length = current
-        self.ranges = np.array(self.ranges)
-
-    def __len__(self):
-        return self.length
+        
 
     
     def idx_to_img(self, idx):
@@ -53,25 +55,56 @@ class PairDataset(Dataset):
             else:
                 high = mid
         return None, None
-    
-    def load_img(self, dir_idx, offset):
-        path_name = os.path.join("..", "dataset", self.dirnames[dir_idx], f"{offset}.png")
+
+    def load_image(self, tile_idx, img_idx):
+        path_name = os.path.join(self.path, self.dirnames[tile_idx], f"{img_idx}.png")
         tensor_image = read_image(path_name)
 
         # normalize pixel values
-        tensor_image = tensor_image.float() / 255
-        # resize to 8x8 (while training found few images that were 6x8)
-        tensor_image = self.transforms(tensor_image)
+        tensor_image = tensor_image.float() / 255.0
+        if (tensor_image.shape != torch.Size([3, 8, 8])):
+            print(self.dirnames[tile_idx], img_idx)
         return tensor_image
 
-    """
+class TileDataset(ImageData):
+    '''
+        Not a torch dataset
+    '''
+    def __init__(self, path):
+        super(TileDataset, self).__init__(path)
+
+    def __len__(self):
+        return self.length
+
+    def __getitem__(self, idx):
+        img = self.idx_to_img(idx)
+        return self.load_image(img[0], img[1]), self.dirnums[img[0]]
+
+
+class PairDataset(ImageData, Dataset):
+    def __init__(self, path):
+        super(PairDataset, self).__init__(path)
+
+    def __len__(self):
+        return self.length * self.length - 1
+
     def __getitem__(self, idx):
         first, second = idx % self.length, idx // self.length
         first_img, second_img = self.idx_to_img(first), self.idx_to_img(second)
         similarity = torch.tensor([first_img[0] == second_img[0]])
-        
-        return first_img, second_img, similarity
-    """
+        return self.load_image(first_img[0], first_img[1]), self.load_image(second_img[0], second_img[1]), similarity
+
+
+class RandomPairDataset(ImageData, Dataset):
+    def __init__(self, path):
+        super(RandomPairDataset, self).__init__(path)
+        for i in range(len(self.ranges)):
+            self.ranges[i] = [self.ranges[i][0], self.ranges[i][1]]
+        self.ranges = np.array(self.ranges)
+
+    def __len__(self):
+        return self.length * self.length - 1
+
     def __getitem__(self, _):
         # we randomly choose to either get a similar or dissimilar image
         if np.random.uniform(0, 1) < 0.5:
@@ -90,7 +123,7 @@ class PairDataset(Dataset):
             if tiles[i][1]:
                 offset = np.random.randint(*tiles[i])
             # read in images from disk and load into tensors
-            img = self.load_img(tr_idxs[i], offset)
+            img = self.load_image(tr_idxs[i], offset)
             images.append(img)
         
         # our label, if they're in the same folder label is 1 else 0
@@ -99,14 +132,16 @@ class PairDataset(Dataset):
         return images[0], images[1], similarity
 
 if __name__ == "__main__":
-    pd = PairDataset(os.path.join("..", "dataset"))
-    img1, img2, sim = pd.__getitem__(5)
-    print(img1, img2, sim)
-    """
-    print(pd.ranges)
-    print(pd.idx_to_img(0))
-    print(pd.idx_to_img(pd.length - 1))
-    print(pd.idx_to_img(100))
-    print(pd.idx_to_img(200))
-    print(pd.idx_to_img(500))
-    """
+    # pd = PairDataset("../dataset/")
+    # for i in range(pd.length + 1):
+    #     pd[i]
+
+    # d = TileDataset("../dataset/")
+    # print(len(d))
+
+    rd = RandomPairDataset("../dataset")
+    for i in range(rd.length):
+        x = rd[i]
+        assert x[0] is not None
+        assert x[1] is not None
+        assert x[2] is not None
