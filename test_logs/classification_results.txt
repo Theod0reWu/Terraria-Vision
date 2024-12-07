@@ -1,0 +1,605 @@
+Tile Index: 0
+Center: (70, 70)
+Top-K Classes: ('FleshGrass', 'WebRope')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 1
+Center: (70, 210)
+Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 2
+Center: (70, 350)
+Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 3
+Center: (70, 490)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 4
+Center: (70, 630)
+Top-K Classes: ('FleshGrass', 'WeaponsRack')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 5
+Center: (70, 770)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 6
+Center: (70, 910)
+Top-K Classes: ('WebRope', 'WeaponsRack')
+Probabilities: (0.2, 0.2)
+
+Tile Index: 7
+Center: (70, 1050)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 8
+Center: (70, 1190)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 9
+Center: (70, 1330)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 10
+Center: (70, 1452)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 11
+Center: (210, 70)
+Top-K Classes: ('WebRope', 'FleshGrass')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 12
+Center: (210, 210)
+Top-K Classes: ('WebRope', 'WeaponsRack')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 13
+Center: (210, 350)
+Top-K Classes: ('WeaponsRack', 'WebRope')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 14
+Center: (210, 490)
+Top-K Classes: ('WeaponsRack', 'FleshGrass')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 15
+Center: (210, 630)
+Top-K Classes: ('WeaponsRack', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 16
+Center: (210, 770)
+Top-K Classes: ('WebRope', 'WeaponsRack')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 17
+Center: (210, 910)
+Top-K Classes: ('WebRope', 'FleshGrass')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 18
+Center: (210, 1050)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 19
+Center: (210, 1190)
+Top-K Classes: ('WebRope', 'FleshGrass')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 20
+Center: (210, 1330)
+Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 21
+Center: (210, 1452)
+Top-K Classes: ('FireworksBox', 'GreenJellyfishBowl')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 22
+Center: (350, 70)
+Top-K Classes: ('FleshGrass', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 23
+Center: (350, 210)
+Top-K Classes: ('FleshGrass', 'GoldCoinPile')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 24
+Center: (350, 350)
+Top-K Classes: ('WebRope', 'WeaponsRack')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 25
+Center: (350, 490)
+Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 26
+Center: (350, 630)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 27
+Center: (350, 770)
+Top-K Classes: ('FleshGrass', 'WebRope')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 28
+Center: (350, 910)
+Top-K Classes: ('WebRope', 'WeaponsRack')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 29
+Center: (350, 1050)
+Top-K Classes: ('Dressers', 'Larva')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 30
+Center: (350, 1190)
+Top-K Classes: ('WebRope', 'StinkbugHousingBlockerEcho')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 31
+Center: (350, 1330)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 32
+Center: (350, 1452)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 33
+Center: (490, 70)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 34
+Center: (490, 210)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 35
+Center: (490, 350)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 36
+Center: (490, 490)
+Top-K Classes: ('FireworksBox', 'GreenJellyfishBowl')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 37
+Center: (490, 630)
+Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 38
+Center: (490, 770)
+Top-K Classes: ('FireworksBox', 'GreenJellyfishBowl')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 39
+Center: (490, 910)
+Top-K Classes: ('FleshGrass', 'WebRope')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 40
+Center: (490, 1050)
+Top-K Classes: ('WebRope', 'FleshGrass')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 41
+Center: (490, 1190)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 42
+Center: (490, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 43
+Center: (490, 1452)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 44
+Center: (630, 70)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 45
+Center: (630, 210)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 46
+Center: (630, 350)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 47
+Center: (630, 490)
+Top-K Classes: ('WeaponsRack', 'RainbowMossBrick')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 48
+Center: (630, 630)
+Top-K Classes: ('FleshGrass', 'WebRope')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 49
+Center: (630, 770)
+Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 50
+Center: (630, 910)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 51
+Center: (630, 1050)
+Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 52
+Center: (630, 1190)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 53
+Center: (630, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 54
+Center: (630, 1452)
+Top-K Classes: ('GreenJellyfishBowl', 'Waterfall')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 55
+Center: (770, 70)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 56
+Center: (770, 210)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 57
+Center: (770, 350)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 58
+Center: (770, 490)
+Top-K Classes: ('WeaponsRack', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 59
+Center: (770, 630)
+Top-K Classes: ('WeaponsRack', 'Dressers')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 60
+Center: (770, 770)
+Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 61
+Center: (770, 910)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 62
+Center: (770, 1050)
+Top-K Classes: ('GoldCoinPile', 'WeaponsRack')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 63
+Center: (770, 1190)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 64
+Center: (770, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 65
+Center: (770, 1452)
+Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 66
+Center: (910, 70)
+Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 67
+Center: (910, 210)
+Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 68
+Center: (910, 350)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 69
+Center: (910, 490)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 70
+Center: (910, 630)
+Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 71
+Center: (910, 770)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 72
+Center: (910, 910)
+Top-K Classes: ('WeaponsRack', 'Dressers')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 73
+Center: (910, 1050)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 74
+Center: (910, 1190)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 75
+Center: (910, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 76
+Center: (910, 1452)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 77
+Center: (1050, 70)
+Top-K Classes: ('FleshGrass', 'WeaponsRack')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 78
+Center: (1050, 210)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 79
+Center: (1050, 350)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 80
+Center: (1050, 490)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 81
+Center: (1050, 630)
+Top-K Classes: ('FleshGrass', 'WebRope')
+Probabilities: (0.4, 0.2)
+
+Tile Index: 82
+Center: (1050, 770)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 83
+Center: (1050, 910)
+Top-K Classes: ('WeaponsRack', 'FleshGrass')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 84
+Center: (1050, 1050)
+Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 85
+Center: (1050, 1190)
+Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 86
+Center: (1050, 1330)
+Top-K Classes: ('FleshBlock', 'Larva')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 87
+Center: (1050, 1452)
+Top-K Classes: ('DesertFossil', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 88
+Center: (1190, 70)
+Top-K Classes: ('WeaponsRack', 'MusicBoxes')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 89
+Center: (1190, 210)
+Top-K Classes: ('PlatinumCoinPile', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 90
+Center: (1190, 350)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 91
+Center: (1190, 490)
+Top-K Classes: ('GreenJellyfishBowl', 'FireworksBox')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 92
+Center: (1190, 630)
+Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 93
+Center: (1190, 770)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 94
+Center: (1190, 910)
+Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 95
+Center: (1190, 1050)
+Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 96
+Center: (1190, 1190)
+Top-K Classes: ('FleshGrass', 'GoldCoinPile')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 97
+Center: (1190, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 98
+Center: (1190, 1452)
+Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 99
+Center: (1330, 70)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 100
+Center: (1330, 210)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 101
+Center: (1330, 350)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 102
+Center: (1330, 490)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 103
+Center: (1330, 630)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.4, 0.4)
+
+Tile Index: 104
+Center: (1330, 770)
+Top-K Classes: ('MusicBoxes', 'Dressers')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 105
+Center: (1330, 910)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.2)
+
+Tile Index: 106
+Center: (1330, 1050)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 107
+Center: (1330, 1190)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 108
+Center: (1330, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 109
+Center: (1330, 1452)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 110
+Center: (1431, 70)
+Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 111
+Center: (1431, 210)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 112
+Center: (1431, 350)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 113
+Center: (1431, 490)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 114
+Center: (1431, 630)
+Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 115
+Center: (1431, 770)
+Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 116
+Center: (1431, 910)
+Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 117
+Center: (1431, 1050)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.8, 0.2)
+
+Tile Index: 118
+Center: (1431, 1190)
+Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
+Probabilities: (0.6, 0.4)
+
+Tile Index: 119
+Center: (1431, 1330)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 120
+Center: (1431, 1452)
+Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+

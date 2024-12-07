@@ -17,7 +17,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.001)
 losses = []
 
 num_epochs = 10
-num_iter = int(1e7 // 256)
+num_iter = int(1e8 // 256)
 train_loss = []
 iterations = []
 

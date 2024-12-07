@@ -5,7 +5,7 @@ from dataset import TileDataset
 from tqdm import tqdm
 import torch
 import os
-
+"""
 model_path_name = os.path.join("..", "models", "embedding_network.pth")
 
 model = torch.load(model_path_name)
@@ -17,7 +17,8 @@ x_train = []
 y_train = []
 
 model.eval()
-
+"""
+"""
 for i in tqdm(range(len(td))):
     img, label = td.__getitem__(i)
     embeddings = model(img.unsqueeze(0)).detach().numpy()
@@ -28,22 +29,44 @@ for i in tqdm(range(len(td))):
 x_train = np.reshape(x_train, (-1, 128))
 np.save(os.path.join("..", "embeddings", "embeddings.npy"), x_train)
 np.save(os.path.join("..", "embeddings", "labels.py"), y_train)
+"""
 
+x_train = np.load(os.path.join("..", "embeddings", "embeddings.npy"))
+y_train = np.load(os.path.join("..", "embeddings", "labels.npy"))
 x_train, x_test, y_train, y_test = train_test_split(x_train,y_train, test_size=.2)
-
+print(x_train.shape)
+"""
 clf = LinearSVC()
 clf.fit(x_train, y_train)
 
 print(clf.score(x_test, y_test))
-
-
 """
+"""
+from sklearn.ensemble import RandomForestClassifier
+
+clf = RandomForestClassifier(max_depth=2, random_state=0)
+clf.fit(x_train, y_train)
+print(clf.score(x_test, y_test))
+"""
+
+
 from sklearn.neighbors import KNeighborsClassifier
+
+clf = KNeighborsClassifier(n_neighbors=5)
+clf.fit(x_train, y_train)
+print(clf.score(x_test, y_test))
+
+import pickle
+clf_model_path = os.path.join("..", "models", "model.pkl")
+with open(clf_model_path ,'wb') as f:
+    pickle.dump(clf,f)
+"""
 for i in range(1, 100):
     clf = KNeighborsClassifier(n_neighbors=i)
     clf.fit(x_train, y_train)
     print(clf.score(x_test, y_test))
 """
+
 """
 from sklearn.linear_model import LogisticRegression
 
