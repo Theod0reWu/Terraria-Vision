@@ -4,21 +4,25 @@ from sklearn.decomposition import PCA
 import numpy as np
 from dataset import PairDataset
 import matplotlib.pyplot as plt
+from siamese_model import EmbeddingNetwork
+
+model = EmbeddingNetwork()
 
 model_path_name = os.path.join("..", "models", "embedding_network.pth")
 
-model = torch.load(model_path_name)
-
+weights = torch.load(model_path_name)
+model.load_state_dict(weights)
 model.eval()
 pd = PairDataset(os.path.join("..", "dataset"))
 embeddings = []
 class_labels = []
 
-for i in range(3):
-    dirname = os.path.join("..", "dataset", f"Tiles_{i}")
+for i in range(5):
+
+    dirname = os.path.join("..", "dataset", pd.dirnames[i])
     num_tiles = len(os.listdir(dirname))
     for j in range(num_tiles):
-        img = pd.load_img(i, j).unsqueeze(0)
+        img = pd.load_image(i, j).unsqueeze(0)
         embeddings.append(model(img).detach().numpy())
         class_labels.append(i)
 

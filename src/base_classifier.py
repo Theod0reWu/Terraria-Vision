@@ -3,6 +3,7 @@ import os
 import pickle
 import torch
 import numpy as np
+from siamese_model import EmbeddingNetwork
 
 class TileClassifier:
     def __init__(self, model_path):
@@ -14,9 +15,11 @@ class TileClassifier:
                 class_names.append(line.split("\t")[0])
 
         self.clf.classes_ = np.array(class_names)
-        embedding_model_path = os.path.join("..", "models", "embedding_network.pth")
-        self.embedding_model = torch.load(embedding_model_path)
-        self.embedding_model.eval()
+        model = EmbeddingNetwork()
+        model_path_name = os.path.join("..", "models", "embedding_network.pth")
+        weights = torch.load(model_path_name)
+        model.load_state_dict(weights)
+        self.embedding_model = model
 
     
     def __call__(self, img, k):
