@@ -15,7 +15,7 @@ class TileClassifier:
             for line in f:
                 class_names.append(line.split("\t")[0])
 
-        #self.clf.classes_ = np.array(class_names)
+        self.clf.classes_ = np.array(class_names)
         model = EmbeddingNetwork()
         model_path_name = os.path.join("..", "models", "embedding_network.pth")
         weights = torch.load(model_path_name)
@@ -73,7 +73,7 @@ class BaseClassifier:
         return opt_window_size
     
     def classify_base(self, base_image):
-        window_size = self.segment_base(base_image)
+        window_size = 92#self.segment_base(base_image)
         classification_results = []
         tile_index = 0
         for i in range(0, base_image.shape[0] + 1, window_size):
@@ -84,7 +84,7 @@ class BaseClassifier:
                 center_x = i + (window_length - i) // 2
                 center_y = j + (window_width - j) // 2
 
-                img_tile = base_image[i:window_length, j:window_width]
+                img_tile = base_image[i:window_length, j:window_width]/255.0
                 top_k, probs = self.classify_tile(img_tile)
 
                 classification_results.append({
@@ -105,8 +105,8 @@ class BaseClassifier:
         classification_results_path = os.path.join("..", "test_logs", "classification_results.txt")
 
         tile_index = 0
-        for i in range(0, base_image.shape[0], window_size):
-            for j in range(0, base_image.shape[1], window_size):
+        for i in range(33, base_image.shape[0]-33, window_size):
+            for j in range(34, base_image.shape[1]-35, window_size):
                 cv2.rectangle(annotated_image, 
                               (j, i), 
                               (min(base_image.shape[1], j + window_size), 
