@@ -1,5 +1,3 @@
-"""Creates the tiles in test_build_1 for classification"""
-
 from torch.utils.data import DataLoader, Dataset
 from torchvision.io import read_image
 import torch
@@ -12,67 +10,66 @@ TILE_POS = [(e, i) for e in [0, 1, 5] for i in range(6)] + [(e, i) for e in rang
 
 class TestDataset(Dataset):
 
-	idx_map = {i : TILE_POS[i] for i in range(len(TILE_POS))}
+    idx_map = {i : TILE_POS[i] for i in range(len(TILE_POS))}
 
-	def __init__(self, path = "../images/test_builds/test_build_1.png"):
-		'''
-		    Test dataset made from test_buld_1.png image
-		'''
-		self.path = path
-		self.tensor_image = torch.moveaxis(read_image(path)[:, 34:, 30:], 0, -1)
+    def __init__(self, path = "../images/test_builds/test_build_1.png"):
+        '''
+            Test dataset made from test_buld_1.png image
+        '''
+        self.path = path
+        self.tensor_image = torch.moveaxis(read_image(path)[:, 34:, 30:], 0, -1)
 
-		self.section_rows = 12
-		self.section_cols = 12
+        self.section_rows = 11
+        self.section_cols = 13
 
-		self.rows = 6
-		self.cols = 6
+        self.rows = 6
+        self.cols = 6
+        
+        self.section_length = 27
+        self.length = (self.section_cols * self.section_rows - 7) * self.section_length
 
-		self.length = 12 * 12 - 7
-		self.section_length = 27
+    def get_section(self, row, col):
+        """
+        Gets the sections with an offset of 16 horizontally and 32 vertically. Each section should be a 6*16 square 
+        """
+        assert row < self.section_rows and col < self.section_cols
+        return get_sprite_custom(self.tensor_image, row, col, 6 * 16, 32, 16)
 
-	def get_section(self, row, col):
-		"""
-		Gets the sections with an offset of 16 horizontally and 32 vertically. Each section should be a 6*16 square 
-		"""
-		assert row < self.section_rows and col < self.section_cols
-		return get_sprite_custom(self.tensor_image, row, col, 6 * 16, 32, 16)
+    def get_tile(self, row, col, section):
+        """
+        Expected section to contain blocks in the format:
 
-	def get_tile(self, row, col, section):
-		"""
-		Expected section to contain blocks in the format:
+            ######
+            ######
+            ##   #
+            ##   #
+            ##   #
+            ######
 
-			######
-			######
-			##   #
-			##   #
-			##   #
-			######
+        Where # is a block
 
-		Where # is a block
+        """
+        assert row < self.rows and col < self.cols
+        return get_sprite(section, row, col, offset = 0)
 
-		"""
-		assert row < self.rows and col < self.cols
-		return get_sprite(section, row, col, offset = 0)
+    def __len__(self):
+        return self.length
 
-	def __len__(self):
-	    return self.length
+    def id_to_img(self, idx):
+        pass
 
-	def id_to_img(self, idx):
-		pass
+    def __getitem__(self, idx):
+        section_idx = idx // self.section_length
+        tile_idx = idx % self.section_length
 
-	def __getitem__(self, idx):
-		section_idx = idx // 30
-		tile_idx = idx % 30
+        tile_row, tile_col = TestDataset.idx_map[tile_idx]
 
-		tile_row, tile_col = TestDataset.idx_map[tile_idx]
+        if section_idx >= 9 * 13 + 4:
+            section_idx += 1
+            
+        section_row = section_idx // self.section_cols
+        section_col = section_idx % self.section_cols
+        
+        section = self.get_section(section_row, section_col)
 
-		if section_idx >= 9 * 12 + 4:
-			section_idx += 1
-		section_row = section_idx // 12
-		section_col = section_idx % 12
-
-		section = self.get_section(section_row, section_col)
-
-		return self.get_tile(tile_row, tile_col, section)
-
-
+        return self.get_tile(tile_row, tile_col, section)
