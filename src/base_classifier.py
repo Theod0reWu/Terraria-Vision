@@ -4,6 +4,7 @@ import pickle
 import torch
 import numpy as np
 from siamese_model import EmbeddingNetwork
+from PIL import Image
 
 class TileClassifier:
     def __init__(self, model_path):
@@ -14,7 +15,7 @@ class TileClassifier:
             for line in f:
                 class_names.append(line.split("\t")[0])
 
-        self.clf.classes_ = np.array(class_names)
+        #self.clf.classes_ = np.array(class_names)
         model = EmbeddingNetwork()
         model_path_name = os.path.join("..", "models", "embedding_network.pth")
         weights = torch.load(model_path_name)
@@ -23,7 +24,10 @@ class TileClassifier:
 
     
     def __call__(self, img, k):
-        img = torch.from_numpy(img).type(torch.float32).permute((2, 0, 1)).view((1, 3, 8, 8))
+        img = torch.tensor(img)
+        img = img.type(torch.float32)
+        img = img.permute((2, 0, 1))
+        img = img.view((1, 3, 8, 8))
         embedding = self.embedding_model(img).detach().numpy()
         probs = self.clf.predict_proba(embedding)[0]
         probs, classes = list(zip(*sorted(zip(probs, self.clf.classes_), reverse=True)))
