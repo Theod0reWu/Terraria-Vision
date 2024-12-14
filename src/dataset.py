@@ -20,6 +20,8 @@ class ImageData():
                 Tile_0
                 ...
                 Tile_100
+
+            Images are returned with dimensions (channel, height, width) and the values are normalized to be between 0 and 1.0
         '''
         self.path = path
         self.length = 0

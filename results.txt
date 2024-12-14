@@ -1,0 +1,28 @@
+KNN - 5, 'euclidean'
+Algorithm	|	Accuracy
+------------------------
+kd_tree		|	0.50
+ball_tree	|	0.50
+brute		|	0.50
+
+(Using 'auto')
+n_neighbors	|	Accuracy
+------------------------
+1			|	0.61
+2			|	0.55
+3			|	0.52
+4			|	0.51
+
+PCA - knn(1, 'euclidean')
+n_components	|	Accuracy
+----------------------------
+50				|	0.57
+100				|	0.61
+128				|	0.61
+
+KNN - 1
+distance_metric	|	Accuracy
+----------------------------
+cosine			|	0.63
+euclidean		|	0.61
+cityblock		|	0.62

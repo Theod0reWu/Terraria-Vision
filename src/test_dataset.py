@@ -22,12 +22,13 @@ class TestDataset(Dataset):
 		'''
 		self.path = path
 		self.tensor_image = torch.moveaxis(read_image(path)[:, 34:, 30:], 0, -1)
+		self.tensor_image = self.tensor_image.float() / 255.0
 
 		# Replace 'your_file.csv' with your actual file name
 		self.label_path = label_path
-		with open(label_path, 'r') as file:
+		with open(label_path, 'r', encoding='utf-8-sig') as file:
 			csv_reader = csv.reader(file)
-			self.labels = [row for row in csv_reader]
+			self.labels = [[ torch.tensor(int(i), dtype=torch.int32) for i in row] for row in csv_reader]
 
 		self.section_rows = 11
 		self.section_cols = 13
@@ -42,7 +43,7 @@ class TestDataset(Dataset):
 	    """
 	    Gets the sections with an offset of 16 horizontally and 32 vertically. Each section should be a 6*16 square 
 	    """
-	    assert row < self.section_rows and col < self.section_cols
+	    assert row < self.section_rows and col < self.section_cols, f"row: {row} < {self.section_rows}, col: {col} < {self.section_cols}"
 	    return get_sprite_custom(self.tensor_image, row, col, 6 * 16, 32, 16)
 
 	def get_tile(self, row, col, section):
