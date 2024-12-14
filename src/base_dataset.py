@@ -28,7 +28,7 @@ class TestDataset(Dataset):
 		self.cols = 6
 
 		self.length = 12 * 12 - 7
-		self.section_length = 25
+		self.section_length = 27
 
 	def get_section(self, row, col):
 		"""
@@ -52,7 +52,7 @@ class TestDataset(Dataset):
 
 		"""
 		assert row < self.rows and col < self.cols
-		return get_sprite(section, row, col)
+		return get_sprite(section, row, col, offset = 0)
 
 	def __len__(self):
 	    return self.length
