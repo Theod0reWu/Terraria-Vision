@@ -1,3 +1,5 @@
+"""Generates separate tile images from the sprite sheets"""
+
 from torch.utils.data import DataLoader, Dataset
 from torchvision.io import read_image
 import torch

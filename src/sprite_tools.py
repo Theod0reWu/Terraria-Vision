@@ -18,12 +18,15 @@ def display(img, path = None):
     plt.show()
 
 def get_sprite(img, x, y, incr = 16, offset = 2):
+    return get_sprite_custom(img, x, y, incr, offset, offset)
+    
+def get_sprite_custom(img, x, y, incr = 16, vert_offset = 2, horiz_offset = 2):
     '''
         If each sprite is <incr>x<incr> with a offset of <offset> between them, get the [x,y] sprite
     '''
-    start_x = x * 16 + offset * x
-    start_y = y * 16 + offset * y
-    return img[start_x: start_x + incr, start_y : start_y + 16]
+    start_x = x * incr + vert_offset * x
+    start_y = y * incr + horiz_offset * y
+    return img[start_x: start_x + incr, start_y : start_y + incr]
 
 def downsample(img):
     '''
