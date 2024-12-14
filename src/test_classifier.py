@@ -5,6 +5,7 @@ import cv2
 from tqdm import tqdm
 
 td = TestDataset()
+print(len(td))
 model_path = os.path.join("..", "models", "model.pkl")
 tile_classifier = TileClassifier(model_path)
 predictions = []

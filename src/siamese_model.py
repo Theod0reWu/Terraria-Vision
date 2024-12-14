@@ -4,7 +4,7 @@ import torch.nn as nn
 class EmbeddingNetwork(nn.Module):
     def __init__(self, embedding_dim=128):
         super(EmbeddingNetwork, self).__init__()
-        self.conv1 = nn.Conv2d(3, 32, kernel_size=3, padding=1)
+        self.conv1 = nn.Conv2d(1, 32, kernel_size=3, padding=1)
         self.conv2 = nn.Conv2d(32, 64, kernel_size=3, padding=1)
         self.conv3 = nn.Conv2d(64, 128, kernel_size=3, padding=1)
         self.fc = nn.Linear(128 * 1 * 1, embedding_dim)

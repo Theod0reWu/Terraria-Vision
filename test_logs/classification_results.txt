@@ -1,605 +1,1360 @@
 Tile Index: 0
-Center: (70, 70)
-Top-K Classes: ('FleshGrass', 'WebRope')
-Probabilities: (0.6, 0.2)
+Center: (46, 46)
+Top-K Classes: ('JunglePlants', 'MasterTrophyBase')
+Probabilities: (0.7085182850466666, 0.10286580755656415)
 
 Tile Index: 1
-Center: (70, 210)
-Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (46, 138)
+Top-K Classes: ('Toilets', 'Hellforge')
+Probabilities: (0.31812052735397917, 0.10864533992368335)
 
 Tile Index: 2
-Center: (70, 350)
-Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
-Probabilities: (0.6, 0.4)
+Center: (46, 230)
+Top-K Classes: ('LongMoss', 'Platforms')
+Probabilities: (0.46969976162124744, 0.21531091426531612)
 
 Tile Index: 3
-Center: (70, 490)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.4, 0.4)
+Center: (46, 322)
+Top-K Classes: ('Crimsand', 'WoodenSpikes')
+Probabilities: (0.189250296514515, 0.17029713458073997)
 
 Tile Index: 4
-Center: (70, 630)
-Top-K Classes: ('FleshGrass', 'WeaponsRack')
-Probabilities: (0.4, 0.2)
+Center: (46, 414)
+Top-K Classes: ('Dressers', 'LihzahrdAltar')
+Probabilities: (0.2850083801647569, 0.2442872737345202)
 
 Tile Index: 5
-Center: (70, 770)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.8, 0.2)
+Center: (46, 506)
+Top-K Classes: ('Larva', 'WoodenSpikes')
+Probabilities: (0.28382144413760346, 0.20228720663734354)
 
 Tile Index: 6
-Center: (70, 910)
-Top-K Classes: ('WebRope', 'WeaponsRack')
-Probabilities: (0.2, 0.2)
+Center: (46, 598)
+Top-K Classes: ('Safes', 'PurpleMoss')
+Probabilities: (0.2445643378368615, 0.1832021008437091)
 
 Tile Index: 7
-Center: (70, 1050)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (46, 690)
+Top-K Classes: ('Crimsand', 'SteampunkBoiler')
+Probabilities: (0.29271875203148945, 0.23739715186472862)
 
 Tile Index: 8
-Center: (70, 1190)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (46, 782)
+Top-K Classes: ('Crimsand', 'WoodenSpikes')
+Probabilities: (0.29122354544849766, 0.18027372778893735)
 
 Tile Index: 9
-Center: (70, 1330)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (46, 874)
+Top-K Classes: ('Crimsand', 'LeafBlock')
+Probabilities: (0.39580483730455546, 0.20600205703351449)
 
 Tile Index: 10
-Center: (70, 1452)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.4, 0.4)
+Center: (46, 966)
+Top-K Classes: ('DrumSet', 'WoodenSpikes')
+Probabilities: (0.5884106566111162, 0.1112198092363882)
 
 Tile Index: 11
-Center: (210, 70)
-Top-K Classes: ('WebRope', 'FleshGrass')
-Probabilities: (0.4, 0.4)
+Center: (46, 1058)
+Top-K Classes: ('Hellforge', 'Furnaces')
+Probabilities: (0.2961791430302397, 0.18154846216294973)
 
 Tile Index: 12
-Center: (210, 210)
-Top-K Classes: ('WebRope', 'WeaponsRack')
-Probabilities: (0.4, 0.2)
+Center: (46, 1150)
+Top-K Classes: ('ClayPot', 'SliceOfCake')
+Probabilities: (0.5310343173251435, 0.11340178193843001)
 
 Tile Index: 13
-Center: (210, 350)
-Top-K Classes: ('WeaponsRack', 'WebRope')
-Probabilities: (0.6, 0.2)
+Center: (46, 1242)
+Top-K Classes: ('SlimeBlock', 'PlanteraBulb')
+Probabilities: (0.43561677271695737, 0.1799155664383657)
 
 Tile Index: 14
-Center: (210, 490)
-Top-K Classes: ('WeaponsRack', 'FleshGrass')
-Probabilities: (0.6, 0.2)
+Center: (46, 1334)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
 
 Tile Index: 15
-Center: (210, 630)
-Top-K Classes: ('WeaponsRack', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (46, 1426)
+Top-K Classes: ('GoldBirdCage', 'Anvils')
+Probabilities: (0.21016572016760693, 0.11538368930691975)
 
 Tile Index: 16
-Center: (210, 770)
-Top-K Classes: ('WebRope', 'WeaponsRack')
-Probabilities: (0.4, 0.4)
+Center: (46, 1488)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
 
 Tile Index: 17
-Center: (210, 910)
-Top-K Classes: ('WebRope', 'FleshGrass')
-Probabilities: (0.4, 0.4)
+Center: (138, 46)
+Top-K Classes: ('Cattail', 'AmberBunnyCage')
+Probabilities: (0.3952802433195738, 0.202380526641151)
 
 Tile Index: 18
-Center: (210, 1050)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (138, 138)
+Top-K Classes: ('Cattail', 'Dressers')
+Probabilities: (0.42532653500559897, 0.2384995417766501)
 
 Tile Index: 19
-Center: (210, 1190)
-Top-K Classes: ('WebRope', 'FleshGrass')
-Probabilities: (0.8, 0.2)
+Center: (138, 230)
+Top-K Classes: ('SmoothSandstone', 'VanityTreeYellowWillow')
+Probabilities: (0.15863238151314052, 0.14500057451459558)
 
 Tile Index: 20
-Center: (210, 1330)
-Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
-Probabilities: (0.6, 0.2)
+Center: (138, 322)
+Top-K Classes: ('AntlionLarva', 'Dressers')
+Probabilities: (0.7562708787019773, 0.08597790360972483)
 
 Tile Index: 21
-Center: (210, 1452)
-Top-K Classes: ('FireworksBox', 'GreenJellyfishBowl')
-Probabilities: (0.6, 0.4)
+Center: (138, 414)
+Top-K Classes: ('WoodenSpikes', 'AmethystSquirrelCage')
+Probabilities: (0.3290838394696829, 0.18426985803503382)
 
 Tile Index: 22
-Center: (350, 70)
-Top-K Classes: ('FleshGrass', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (138, 506)
+Top-K Classes: ('CrimsonHardenedSand', 'StoneSlab')
+Probabilities: (0.31625335568313684, 0.18748725125143192)
 
 Tile Index: 23
-Center: (350, 210)
-Top-K Classes: ('FleshGrass', 'GoldCoinPile')
-Probabilities: (0.4, 0.2)
+Center: (138, 598)
+Top-K Classes: ('ClayPot', 'Safes')
+Probabilities: (0.3272383755037731, 0.11672717121589475)
 
 Tile Index: 24
-Center: (350, 350)
-Top-K Classes: ('WebRope', 'WeaponsRack')
-Probabilities: (0.4, 0.2)
+Center: (138, 690)
+Top-K Classes: ('Crimsand', 'CactusBlock')
+Probabilities: (0.5455246202085428, 0.10082144980252053)
 
 Tile Index: 25
-Center: (350, 490)
-Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
-Probabilities: (0.4, 0.4)
+Center: (138, 782)
+Top-K Classes: ('Crimsand', 'PicnicTable')
+Probabilities: (0.34524873269032574, 0.1859707308986484)
 
 Tile Index: 26
-Center: (350, 630)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (138, 874)
+Top-K Classes: ('Crimsand', 'VortexBrick')
+Probabilities: (0.27148719449936765, 0.26197833061839576)
 
 Tile Index: 27
-Center: (350, 770)
-Top-K Classes: ('FleshGrass', 'WebRope')
-Probabilities: (0.6, 0.2)
+Center: (138, 966)
+Top-K Classes: ('DrumSet', 'HellButterflyJar')
+Probabilities: (0.8404669656538883, 0.09721449114946286)
 
 Tile Index: 28
-Center: (350, 910)
-Top-K Classes: ('WebRope', 'WeaponsRack')
-Probabilities: (0.6, 0.2)
+Center: (138, 1058)
+Top-K Classes: ('PicnicTable', 'TeamBlockRedPlatform')
+Probabilities: (0.6284118624318316, 0.1098357931200884)
 
 Tile Index: 29
-Center: (350, 1050)
-Top-K Classes: ('Dressers', 'Larva')
-Probabilities: (0.4, 0.2)
+Center: (138, 1150)
+Top-K Classes: ('Crimsand', 'SteampunkBoiler')
+Probabilities: (0.5177110803114696, 0.2764986337249947)
 
 Tile Index: 30
-Center: (350, 1190)
-Top-K Classes: ('WebRope', 'StinkbugHousingBlockerEcho')
-Probabilities: (0.6, 0.2)
+Center: (138, 1242)
+Top-K Classes: ('Crimsand', 'PicnicTable')
+Probabilities: (0.38278999149742193, 0.2721764282520258)
 
 Tile Index: 31
-Center: (350, 1330)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (138, 1334)
+Top-K Classes: ('Crimsand', 'Dressers')
+Probabilities: (0.22643807136456684, 0.17754285616401846)
 
 Tile Index: 32
-Center: (350, 1452)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (138, 1426)
+Top-K Classes: ('Pianos', 'Candelabras')
+Probabilities: (0.2958839376082493, 0.26640642738867065)
 
 Tile Index: 33
-Center: (490, 70)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Center: (138, 1488)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
 Probabilities: (1.0, 0.0)
 
 Tile Index: 34
-Center: (490, 210)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (230, 46)
+Top-K Classes: ('WoodenSpikes', 'SandFallBlock')
+Probabilities: (0.25639078163334406, 0.23188547800987097)
 
 Tile Index: 35
-Center: (490, 350)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 138)
+Top-K Classes: ('Platforms', 'Toilets')
+Probabilities: (0.2678383757283107, 0.2505628077327143)
 
 Tile Index: 36
-Center: (490, 490)
-Top-K Classes: ('FireworksBox', 'GreenJellyfishBowl')
-Probabilities: (0.6, 0.4)
+Center: (230, 230)
+Top-K Classes: ('Toilets', 'PlatinumCandelabra')
+Probabilities: (0.527755615047889, 0.296829814467614)
 
 Tile Index: 37
-Center: (490, 630)
-Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 322)
+Top-K Classes: ('TinBrick', 'Dressers')
+Probabilities: (0.5224841662303749, 0.17755096650018562)
 
 Tile Index: 38
-Center: (490, 770)
-Top-K Classes: ('FireworksBox', 'GreenJellyfishBowl')
-Probabilities: (0.8, 0.2)
+Center: (230, 414)
+Top-K Classes: ('LihzahrdAltar', 'PlatinumCandelabra')
+Probabilities: (0.23179881403840924, 0.1776825467930999)
 
 Tile Index: 39
-Center: (490, 910)
-Top-K Classes: ('FleshGrass', 'WebRope')
-Probabilities: (0.8, 0.2)
+Center: (230, 506)
+Top-K Classes: ('WoodenSpikes', 'BloomingHerbs')
+Probabilities: (0.4137888131673811, 0.24390338977634873)
 
 Tile Index: 40
-Center: (490, 1050)
-Top-K Classes: ('WebRope', 'FleshGrass')
-Probabilities: (0.4, 0.4)
+Center: (230, 598)
+Top-K Classes: ('Crimsand', 'Safes')
+Probabilities: (0.4268679662970931, 0.33854009570551896)
 
 Tile Index: 41
-Center: (490, 1190)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 690)
+Top-K Classes: ('TeamBlockRedPlatform', 'Safes')
+Probabilities: (0.20358268667304416, 0.1804099877977076)
 
 Tile Index: 42
-Center: (490, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 782)
+Top-K Classes: ('Dressers', 'Crimsand')
+Probabilities: (0.3738582918966544, 0.23815359929490926)
 
 Tile Index: 43
-Center: (490, 1452)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 874)
+Top-K Classes: ('LesionStation', 'WoodenSpikes')
+Probabilities: (0.19219342286812985, 0.1772630970497401)
 
 Tile Index: 44
-Center: (630, 70)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 966)
+Top-K Classes: ('ChlorophyteExtractinator', 'Dressers')
+Probabilities: (0.6083019078741624, 0.12057666274070028)
 
 Tile Index: 45
-Center: (630, 210)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 1058)
+Top-K Classes: ('Safes', 'Dressers')
+Probabilities: (0.16292067207525698, 0.16011587381557382)
 
 Tile Index: 46
-Center: (630, 350)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (230, 1150)
+Top-K Classes: ('SillyBalloonPurple', 'Sunplate')
+Probabilities: (0.5226749376692155, 0.37677183972820605)
 
 Tile Index: 47
-Center: (630, 490)
-Top-K Classes: ('WeaponsRack', 'RainbowMossBrick')
-Probabilities: (0.6, 0.2)
+Center: (230, 1242)
+Top-K Classes: ('Crimsand', 'SmoothSandstone')
+Probabilities: (0.34075895568493575, 0.3316510634414559)
 
 Tile Index: 48
-Center: (630, 630)
-Top-K Classes: ('FleshGrass', 'WebRope')
-Probabilities: (0.4, 0.2)
+Center: (230, 1334)
+Top-K Classes: ('TinBrick', 'Dressers')
+Probabilities: (0.23525468560641508, 0.20361993808969908)
 
 Tile Index: 49
-Center: (630, 770)
-Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
-Probabilities: (0.6, 0.2)
+Center: (230, 1426)
+Top-K Classes: ('GoldBirdCage', 'Platforms')
+Probabilities: (0.9022562075277377, 0.09774379247226232)
 
 Tile Index: 50
-Center: (630, 910)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (230, 1488)
+Top-K Classes: ('SnowBlock', 'Painting3X3')
+Probabilities: (0.808378859366793, 0.09901655586335767)
 
 Tile Index: 51
-Center: (630, 1050)
-Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
-Probabilities: (0.4, 0.4)
+Center: (322, 46)
+Top-K Classes: ('TinBrick', 'LesionStation')
+Probabilities: (0.5614039133309211, 0.38140924569352647)
 
 Tile Index: 52
-Center: (630, 1190)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 138)
+Top-K Classes: ('RedMossBrick', 'Platforms')
+Probabilities: (0.29417924642140486, 0.2414639416805366)
 
 Tile Index: 53
-Center: (630, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 230)
+Top-K Classes: ('ChlorophyteExtractinator', 'AdamantiteForge')
+Probabilities: (0.1811023806023824, 0.18025214249092317)
 
 Tile Index: 54
-Center: (630, 1452)
-Top-K Classes: ('GreenJellyfishBowl', 'Waterfall')
-Probabilities: (0.6, 0.2)
+Center: (322, 322)
+Top-K Classes: ('Silver', 'Safes')
+Probabilities: (0.3187159237103499, 0.24438762471101644)
 
 Tile Index: 55
-Center: (770, 70)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 414)
+Top-K Classes: ('Safes', 'Tombstones')
+Probabilities: (0.2980874324788779, 0.1870050971842888)
 
 Tile Index: 56
-Center: (770, 210)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 506)
+Top-K Classes: ('TinBrick', 'XenonMoss')
+Probabilities: (0.3911574643589622, 0.295667819784703)
 
 Tile Index: 57
-Center: (770, 350)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (322, 598)
+Top-K Classes: ('Crimsand', 'StoneSlab')
+Probabilities: (0.3156632345281468, 0.18065560687336987)
 
 Tile Index: 58
-Center: (770, 490)
-Top-K Classes: ('WeaponsRack', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (322, 690)
+Top-K Classes: ('TeamBlockRedPlatform', 'LihzahrdAltar')
+Probabilities: (0.43694934496378746, 0.16634583223005908)
 
 Tile Index: 59
-Center: (770, 630)
-Top-K Classes: ('WeaponsRack', 'Dressers')
-Probabilities: (0.8, 0.2)
+Center: (322, 782)
+Top-K Classes: ('KryptonMossBrick', 'AmberSquirrelCage')
+Probabilities: (0.7317639738336625, 0.09176760102450537)
 
 Tile Index: 60
-Center: (770, 770)
-Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 874)
+Top-K Classes: ('MushroomBlock', 'Dressers')
+Probabilities: (0.580807714818207, 0.2288205556825534)
 
 Tile Index: 61
-Center: (770, 910)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (322, 966)
+Top-K Classes: ('Spider', 'WoodenSpikes')
+Probabilities: (0.20518712708662704, 0.1818780526227554)
 
 Tile Index: 62
-Center: (770, 1050)
-Top-K Classes: ('GoldCoinPile', 'WeaponsRack')
-Probabilities: (0.6, 0.2)
+Center: (322, 1058)
+Top-K Classes: ('VioletMoss', 'Crimsand')
+Probabilities: (0.27210553628063877, 0.14714193625193667)
 
 Tile Index: 63
-Center: (770, 1190)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 1150)
+Top-K Classes: ('StinkbugHousingBlockerEcho', 'Dressers')
+Probabilities: (0.9072487594526778, 0.04760880061263584)
 
 Tile Index: 64
-Center: (770, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 1242)
+Top-K Classes: ('Crimsand', 'SlimeBlock')
+Probabilities: (0.6216920012624131, 0.18827851386482566)
 
 Tile Index: 65
-Center: (770, 1452)
-Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 1334)
+Top-K Classes: ('SlimeBlock', 'LeafBlock')
+Probabilities: (0.5121962154737875, 0.21984013678470926)
 
 Tile Index: 66
-Center: (910, 70)
-Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (322, 1426)
+Top-K Classes: ('Hellforge', 'Shadewood')
+Probabilities: (0.6426079383677781, 0.18425028460156975)
 
 Tile Index: 67
-Center: (910, 210)
-Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
-Probabilities: (0.8, 0.2)
+Center: (322, 1488)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
 
 Tile Index: 68
-Center: (910, 350)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 46)
+Top-K Classes: ('MetalBars', 'Chairs')
+Probabilities: (0.2032854739101047, 0.13161450902196764)
 
 Tile Index: 69
-Center: (910, 490)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.8, 0.2)
+Center: (414, 138)
+Top-K Classes: ('FleshIce', 'AdamantiteForge')
+Probabilities: (0.3879586909212846, 0.14733187035255962)
 
 Tile Index: 70
-Center: (910, 630)
-Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 230)
+Top-K Classes: ('CageBuggy', 'WoodenSpikes')
+Probabilities: (0.4889754892640239, 0.16371093972265605)
 
 Tile Index: 71
-Center: (910, 770)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (414, 322)
+Top-K Classes: ('Anvils', 'SulphurButterflyJar')
+Probabilities: (0.22443825506877046, 0.1622986874550672)
 
 Tile Index: 72
-Center: (910, 910)
-Top-K Classes: ('WeaponsRack', 'Dressers')
-Probabilities: (0.6, 0.4)
+Center: (414, 414)
+Top-K Classes: ('Bottles', 'Torches')
+Probabilities: (0.35849110425043473, 0.10870855751303292)
 
 Tile Index: 73
-Center: (910, 1050)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.6, 0.2)
+Center: (414, 506)
+Top-K Classes: ('Crimsand', 'LongMoss')
+Probabilities: (0.20980278212774864, 0.17282727774968354)
 
 Tile Index: 74
-Center: (910, 1190)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.6, 0.4)
+Center: (414, 598)
+Top-K Classes: ('SillyBalloonTile', 'Crimsand')
+Probabilities: (0.19891362653208364, 0.18859811643835617)
 
 Tile Index: 75
-Center: (910, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 690)
+Top-K Classes: ('PlanteraBulb', 'Crimsand')
+Probabilities: (0.2852560175230866, 0.1920774753718712)
 
 Tile Index: 76
-Center: (910, 1452)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 782)
+Top-K Classes: ('SillyStreamerPink', 'SillyBalloonMachine')
+Probabilities: (0.19874700232750134, 0.19874700232750134)
 
 Tile Index: 77
-Center: (1050, 70)
-Top-K Classes: ('FleshGrass', 'WeaponsRack')
-Probabilities: (0.6, 0.2)
+Center: (414, 874)
+Top-K Classes: ('Platforms', 'TeamBlockRedPlatform')
+Probabilities: (0.36120034521486866, 0.2760157812402957)
 
 Tile Index: 78
-Center: (1050, 210)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 966)
+Top-K Classes: ('WoodenSpikes', 'TeamBlockRedPlatform')
+Probabilities: (0.2780475853281608, 0.16610858236764087)
 
 Tile Index: 79
-Center: (1050, 350)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 1058)
+Top-K Classes: ('Crimsand', 'PlanteraBulb')
+Probabilities: (0.31235696860895107, 0.26599275966672414)
 
 Tile Index: 80
-Center: (1050, 490)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.4, 0.4)
+Center: (414, 1150)
+Top-K Classes: ('BrownMoss', 'SliceOfCake')
+Probabilities: (0.2114702335612902, 0.10269217950624511)
 
 Tile Index: 81
-Center: (1050, 630)
-Top-K Classes: ('FleshGrass', 'WebRope')
-Probabilities: (0.4, 0.2)
+Center: (414, 1242)
+Top-K Classes: ('Stalactite', 'Bottles')
+Probabilities: (0.2085333253603365, 0.13213211416696524)
 
 Tile Index: 82
-Center: (1050, 770)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (414, 1334)
+Top-K Classes: ('Shadewood', 'Platforms')
+Probabilities: (0.1804133630315356, 0.17413567067455915)
 
 Tile Index: 83
-Center: (1050, 910)
-Top-K Classes: ('WeaponsRack', 'FleshGrass')
-Probabilities: (0.8, 0.2)
+Center: (414, 1426)
+Top-K Classes: ('SlimeBlock', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
 
 Tile Index: 84
-Center: (1050, 1050)
-Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (414, 1488)
+Top-K Classes: ('LivingMahogany', 'DiamondGemsparkOff')
+Probabilities: (0.40282763756835294, 0.2928088088412177)
 
 Tile Index: 85
-Center: (1050, 1190)
-Top-K Classes: ('WeaponsRack', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 46)
+Top-K Classes: ('Pots', 'Crimsand')
+Probabilities: (0.5726015361548361, 0.14259801400773975)
 
 Tile Index: 86
-Center: (1050, 1330)
-Top-K Classes: ('FleshBlock', 'Larva')
-Probabilities: (0.8, 0.2)
+Center: (506, 138)
+Top-K Classes: ('TeamBlockRedPlatform', 'WoodenSpikes')
+Probabilities: (0.325673423410474, 0.20545378240069812)
 
 Tile Index: 87
-Center: (1050, 1452)
-Top-K Classes: ('DesertFossil', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 230)
+Top-K Classes: ('AmethystSquirrelCage', 'Dressers')
+Probabilities: (0.8012785784756303, 0.11911476542998871)
 
 Tile Index: 88
-Center: (1190, 70)
-Top-K Classes: ('WeaponsRack', 'MusicBoxes')
-Probabilities: (0.6, 0.2)
+Center: (506, 322)
+Top-K Classes: ('TreeEmerald', 'MonarchButterflyJar')
+Probabilities: (0.34266778910533247, 0.18911783832269563)
 
 Tile Index: 89
-Center: (1190, 210)
-Top-K Classes: ('PlatinumCoinPile', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 414)
+Top-K Classes: ('Crimsand', 'Platforms')
+Probabilities: (0.3007355128432065, 0.2194247795158111)
 
 Tile Index: 90
-Center: (1190, 350)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.8, 0.2)
+Center: (506, 506)
+Top-K Classes: ('Crimsand', 'WoodenSpikes')
+Probabilities: (0.3143885758358797, 0.12023256061449482)
 
 Tile Index: 91
-Center: (1190, 490)
-Top-K Classes: ('GreenJellyfishBowl', 'FireworksBox')
-Probabilities: (0.6, 0.4)
+Center: (506, 598)
+Top-K Classes: ('CageGrubby', 'ClayBlock')
+Probabilities: (0.7662033995999239, 0.13183298197619267)
 
 Tile Index: 92
-Center: (1190, 630)
-Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
-Probabilities: (0.8, 0.2)
+Center: (506, 690)
+Top-K Classes: ('CactusBlock', 'LongMoss')
+Probabilities: (0.22635354664637794, 0.17245219507376333)
 
 Tile Index: 93
-Center: (1190, 770)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 782)
+Top-K Classes: ('SilkRope', 'WoodenSpikes')
+Probabilities: (0.25787754969305227, 0.23160141501087347)
 
 Tile Index: 94
-Center: (1190, 910)
-Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
-Probabilities: (0.8, 0.2)
+Center: (506, 874)
+Top-K Classes: ('SkyMill', 'Cog')
+Probabilities: (0.24635432415224495, 0.1650319388795586)
 
 Tile Index: 95
-Center: (1190, 1050)
-Top-K Classes: ('WeaponsRack', 'GoldCoinPile')
-Probabilities: (0.6, 0.4)
+Center: (506, 966)
+Top-K Classes: ('XenonMoss', 'XenonMossBrick')
+Probabilities: (0.30068498193226506, 0.1883220945414051)
 
 Tile Index: 96
-Center: (1190, 1190)
-Top-K Classes: ('FleshGrass', 'GoldCoinPile')
-Probabilities: (0.6, 0.2)
+Center: (506, 1058)
+Top-K Classes: ('Pianos', 'PlanteraBulb')
+Probabilities: (0.3135062744923381, 0.1801226458914935)
 
 Tile Index: 97
-Center: (1190, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 1150)
+Top-K Classes: ('Pianos', 'SteampunkBoiler')
+Probabilities: (0.5207520884817413, 0.3193833180729776)
 
 Tile Index: 98
-Center: (1190, 1452)
-Top-K Classes: ('FireworksBox', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 1242)
+Top-K Classes: ('StoneSlab', 'KryptonMoss')
+Probabilities: (0.3071688414441995, 0.17870226706914125)
 
 Tile Index: 99
-Center: (1330, 70)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 1334)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.3508988343199063, 0.2837504237289519)
 
 Tile Index: 100
-Center: (1330, 210)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (506, 1426)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.45967799798177456, 0.25500871698455047)
 
 Tile Index: 101
-Center: (1330, 350)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.8, 0.2)
+Center: (506, 1488)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.6742456175268406, 0.11782956171042781)
 
 Tile Index: 102
-Center: (1330, 490)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (598, 46)
+Top-K Classes: ('TinBrick', 'Dressers')
+Probabilities: (0.284599070852307, 0.22018194870060903)
 
 Tile Index: 103
-Center: (1330, 630)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.4, 0.4)
+Center: (598, 138)
+Top-K Classes: ('SmoothSandstone', 'CrackedGreenDungeonBrick')
+Probabilities: (0.445652948890062, 0.40771518323288836)
 
 Tile Index: 104
-Center: (1330, 770)
-Top-K Classes: ('MusicBoxes', 'Dressers')
-Probabilities: (0.6, 0.4)
+Center: (598, 230)
+Top-K Classes: ('WoodenSpikes', 'Safes')
+Probabilities: (0.4187562379742408, 0.1125046351622156)
 
 Tile Index: 105
-Center: (1330, 910)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.2)
+Center: (598, 322)
+Top-K Classes: ('SmoothSandstone', 'Dressers')
+Probabilities: (0.9121074741985666, 0.08789252580143336)
 
 Tile Index: 106
-Center: (1330, 1050)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.8, 0.2)
+Center: (598, 414)
+Top-K Classes: ('LongMoss', 'Crimsand')
+Probabilities: (0.4909535002862496, 0.19253508527300997)
 
 Tile Index: 107
-Center: (1330, 1190)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.8, 0.2)
+Center: (598, 506)
+Top-K Classes: ('KryptonMoss', 'RedMossBrick')
+Probabilities: (0.5970601134357949, 0.15849920393192485)
 
 Tile Index: 108
-Center: (1330, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (598, 598)
+Top-K Classes: ('Cattail', 'LilyPad')
+Probabilities: (0.49643024145276865, 0.36063829691833815)
 
 Tile Index: 109
-Center: (1330, 1452)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (598, 690)
+Top-K Classes: ('ReefBlock', 'TinBrick')
+Probabilities: (0.28098773443795466, 0.12538664253264772)
 
 Tile Index: 110
-Center: (1431, 70)
-Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
-Probabilities: (0.8, 0.2)
+Center: (598, 782)
+Top-K Classes: ('TreeEmerald', 'RichMahoganyBeam')
+Probabilities: (0.22416903350134393, 0.17495324175798768)
 
 Tile Index: 111
-Center: (1431, 210)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (598, 874)
+Top-K Classes: ('Bookcases', 'AdamantiteForge')
+Probabilities: (0.3026767590019487, 0.22323694739121264)
 
 Tile Index: 112
-Center: (1431, 350)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (598, 966)
+Top-K Classes: ('AdamantiteForge', 'GoldMouseCage')
+Probabilities: (0.43508038634701507, 0.19253176790790427)
 
 Tile Index: 113
-Center: (1431, 490)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (598, 1058)
+Top-K Classes: ('WoodenSpikes', 'Bookcases')
+Probabilities: (0.17813082495639465, 0.1778738087970433)
 
 Tile Index: 114
-Center: (1431, 630)
-Top-K Classes: ('MusicBoxes', 'GreenJellyfishBowl')
-Probabilities: (0.8, 0.2)
+Center: (598, 1150)
+Top-K Classes: ('Dressers', 'Furnaces')
+Probabilities: (0.3563902985354909, 0.2667967069176744)
 
 Tile Index: 115
-Center: (1431, 770)
-Top-K Classes: ('MusicBoxes', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (598, 1242)
+Top-K Classes: ('StoneSlab', 'KryptonMoss')
+Probabilities: (0.24215030405970808, 0.1882688779476431)
 
 Tile Index: 116
-Center: (1431, 910)
-Top-K Classes: ('MusicBoxes', 'EmeraldGemsparkOff')
-Probabilities: (0.8, 0.2)
+Center: (598, 1334)
+Top-K Classes: ('GrasshopperCage', 'Crimsand')
+Probabilities: (0.3710860590999268, 0.1198068326498022)
 
 Tile Index: 117
-Center: (1431, 1050)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.8, 0.2)
+Center: (598, 1426)
+Top-K Classes: ('Crimsand', 'WoodenSpikes')
+Probabilities: (0.27651568607809685, 0.2011930983106078)
 
 Tile Index: 118
-Center: (1431, 1190)
-Top-K Classes: ('GreenJellyfishBowl', 'MusicBoxes')
-Probabilities: (0.6, 0.4)
+Center: (598, 1488)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.7795922521552062, 0.12399677293286218)
 
 Tile Index: 119
-Center: (1431, 1330)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
-Probabilities: (1.0, 0.0)
+Center: (690, 46)
+Top-K Classes: ('WoodenSpikes', 'BloomingHerbs')
+Probabilities: (0.3548947315134324, 0.2093648392106708)
 
 Tile Index: 120
-Center: (1431, 1452)
-Top-K Classes: ('GreenJellyfishBowl', 'ZebraSwallowtailButterflyJar')
+Center: (690, 138)
+Top-K Classes: ('SillyStreamerPink', 'SillyBalloonMachine')
+Probabilities: (0.20727411819974303, 0.20727411819974303)
+
+Tile Index: 121
+Center: (690, 230)
+Top-K Classes: ('Marble', 'Bottles')
+Probabilities: (0.23848244090254833, 0.1416299168478637)
+
+Tile Index: 122
+Center: (690, 322)
+Top-K Classes: ('CageBuggy', 'Dressers')
+Probabilities: (0.2034224366937074, 0.19903799219843818)
+
+Tile Index: 123
+Center: (690, 414)
+Top-K Classes: ('TeamBlockRedPlatform', 'Platforms')
+Probabilities: (0.20667068155845475, 0.20667068155845475)
+
+Tile Index: 124
+Center: (690, 506)
+Top-K Classes: ('TungstenBrick', 'LavafishBowl')
+Probabilities: (0.3129685536785436, 0.283182917669478)
+
+Tile Index: 125
+Center: (690, 598)
+Top-K Classes: ('Crimsand', 'Larva')
+Probabilities: (0.25561242819197133, 0.2034262953366065)
+
+Tile Index: 126
+Center: (690, 690)
+Top-K Classes: ('SillyBalloonPurple', 'SillyBalloonMachine')
+Probabilities: (0.6869999831931043, 0.0796891404793351)
+
+Tile Index: 127
+Center: (690, 782)
+Top-K Classes: ('SmoothSandstone', 'Crimsand')
+Probabilities: (0.37851051654983026, 0.297627464227867)
+
+Tile Index: 128
+Center: (690, 874)
+Top-K Classes: ('SulphurButterflyJar', 'Dressers')
+Probabilities: (0.4153766304404406, 0.11573170410407832)
+
+Tile Index: 129
+Center: (690, 966)
+Top-K Classes: ('Furnaces', 'Safes')
+Probabilities: (0.1650959735460487, 0.13806147801630472)
+
+Tile Index: 130
+Center: (690, 1058)
+Top-K Classes: ('Safes', 'Crimsand')
+Probabilities: (0.2805886376183239, 0.1683579639125442)
+
+Tile Index: 131
+Center: (690, 1150)
+Top-K Classes: ('SillyBalloonGreen', 'Torches')
+Probabilities: (0.1737453343434423, 0.14437401518869836)
+
+Tile Index: 132
+Center: (690, 1242)
+Top-K Classes: ('CrackedGreenDungeonBrick', 'Tombstones')
+Probabilities: (0.9199278617413715, 0.08007213825862845)
+
+Tile Index: 133
+Center: (690, 1334)
+Top-K Classes: ('CrackedGreenDungeonBrick', 'Dressers')
+Probabilities: (0.391935371102149, 0.25584531822951795)
+
+Tile Index: 134
+Center: (690, 1426)
+Top-K Classes: ('FrogCage', 'ClosedDoor')
+Probabilities: (0.20587941235497284, 0.11091711602176663)
+
+Tile Index: 135
+Center: (690, 1488)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.7873898820662708, 0.11835063669681058)
+
+Tile Index: 136
+Center: (782, 46)
+Top-K Classes: ('Furnaces', 'PlanteraBulb')
+Probabilities: (0.1894242932328264, 0.12732252772328942)
+
+Tile Index: 137
+Center: (782, 138)
+Top-K Classes: ('TeamBlockRedPlatform', 'Platforms')
+Probabilities: (0.18910286877869265, 0.18910286877869265)
+
+Tile Index: 138
+Center: (782, 230)
+Top-K Classes: ('Candelabras', 'CactusBlock')
+Probabilities: (0.1391300421249663, 0.13158738985216897)
+
+Tile Index: 139
+Center: (782, 322)
+Top-K Classes: ('Hellforge', 'Pianos')
+Probabilities: (0.360678278399177, 0.12985981010902783)
+
+Tile Index: 140
+Center: (782, 414)
+Top-K Classes: ('Candelabras', 'Safes')
+Probabilities: (0.2330299336211142, 0.11792334887692899)
+
+Tile Index: 141
+Center: (782, 506)
+Top-K Classes: ('Safes', 'Platforms')
+Probabilities: (0.18261640276851904, 0.12679588531804412)
+
+Tile Index: 142
+Center: (782, 598)
+Top-K Classes: ('Crimsand', 'TinkerersWorkbench')
+Probabilities: (0.417815728335646, 0.21813940667552867)
+
+Tile Index: 143
+Center: (782, 690)
+Top-K Classes: ('Shadewood', 'BloomingHerbs')
+Probabilities: (0.183889290859711, 0.18131065102853675)
+
+Tile Index: 144
+Center: (782, 782)
+Top-K Classes: ('Loom', 'SillyBalloonTile')
+Probabilities: (0.45375597815501795, 0.13713110807375473)
+
+Tile Index: 145
+Center: (782, 874)
+Top-K Classes: ('LihzahrdAltar', 'Crimsand')
+Probabilities: (0.506672019983564, 0.15902685699643576)
+
+Tile Index: 146
+Center: (782, 966)
+Top-K Classes: ('Crimsand', 'Safes')
+Probabilities: (0.19325691752615584, 0.188485489755748)
+
+Tile Index: 147
+Center: (782, 1058)
+Top-K Classes: ('Crimsand', 'WoodenSpikes')
+Probabilities: (0.30288557408443967, 0.1723805364732287)
+
+Tile Index: 148
+Center: (782, 1150)
+Top-K Classes: ('SteampunkBoiler', 'Furnaces')
+Probabilities: (0.2641616938699943, 0.18991871609080807)
+
+Tile Index: 149
+Center: (782, 1242)
+Top-K Classes: ('Crimsand', 'WoodenSpikes')
+Probabilities: (0.4249517276980198, 0.10762517941333895)
+
+Tile Index: 150
+Center: (782, 1334)
+Top-K Classes: ('SlimeBlock', 'Pearlwood')
+Probabilities: (0.2482346232303762, 0.11712259204385377)
+
+Tile Index: 151
+Center: (782, 1426)
+Top-K Classes: ('SteampunkBoiler', 'Tombstones')
+Probabilities: (0.37407787392544917, 0.20536892633085738)
+
+Tile Index: 152
+Center: (782, 1488)
+Top-K Classes: ('SnowBlock', 'ClayBlock')
+Probabilities: (0.9069635352925653, 0.09303646470743461)
+
+Tile Index: 153
+Center: (874, 46)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.37065290421412184, 0.22224722438996838)
+
+Tile Index: 154
+Center: (874, 138)
+Top-K Classes: ('Furnaces', 'AdamantiteForge')
+Probabilities: (0.39875911589850765, 0.1855429062705492)
+
+Tile Index: 155
+Center: (874, 230)
+Top-K Classes: ('LeafBlock', 'JungleVines')
+Probabilities: (0.2681531779268334, 0.17159446822627772)
+
+Tile Index: 156
+Center: (874, 322)
+Top-K Classes: ('Crimsand', 'SulphurButterflyJar')
+Probabilities: (0.29759433408808433, 0.2697401072215577)
+
+Tile Index: 157
+Center: (874, 414)
+Top-K Classes: ('FleshIce', 'Crimsand')
+Probabilities: (0.18187486419261625, 0.12262009868549888)
+
+Tile Index: 158
+Center: (874, 506)
+Top-K Classes: ('Crimsand', 'Tombstones')
+Probabilities: (0.34243598694291405, 0.13801733361934843)
+
+Tile Index: 159
+Center: (874, 598)
+Top-K Classes: ('PottedLavaPlants', 'GolfHole')
+Probabilities: (0.5234772522273693, 0.2657576903785421)
+
+Tile Index: 160
+Center: (874, 690)
+Top-K Classes: ('Dressers', 'Crimsand')
+Probabilities: (0.30370646075854624, 0.19576647543397904)
+
+Tile Index: 161
+Center: (874, 782)
+Top-K Classes: ('WoodenSpikes', 'AmethystSquirrelCage')
+Probabilities: (0.36658842147938314, 0.2855054024714242)
+
+Tile Index: 162
+Center: (874, 874)
+Top-K Classes: ('Crimsand', 'Hellforge')
+Probabilities: (0.19349295268875535, 0.18910518931172607)
+
+Tile Index: 163
+Center: (874, 966)
+Top-K Classes: ('PurpleMoss', 'LihzahrdAltar')
+Probabilities: (0.49403767742321114, 0.23401471884654146)
+
+Tile Index: 164
+Center: (874, 1058)
+Top-K Classes: ('FleshIce', 'Candelabras')
+Probabilities: (0.6628075918342514, 0.1395316900879232)
+
+Tile Index: 165
+Center: (874, 1150)
+Top-K Classes: ('Crimsand', 'Loom')
+Probabilities: (0.17673458033159792, 0.16639074789306038)
+
+Tile Index: 166
+Center: (874, 1242)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.372078957607052, 0.26779151804289686)
+
+Tile Index: 167
+Center: (874, 1334)
+Top-K Classes: ('Dressers', 'Furnaces')
+Probabilities: (0.3677535980259112, 0.1448973194761707)
+
+Tile Index: 168
+Center: (874, 1426)
+Top-K Classes: ('PicnicTable', 'Crimsand')
+Probabilities: (0.42083587058952787, 0.27321521694338413)
+
+Tile Index: 169
+Center: (874, 1488)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
 Probabilities: (1.0, 0.0)
+
+Tile Index: 170
+Center: (966, 46)
+Top-K Classes: ('FleshBlock', 'LunarBlockNebula')
+Probabilities: (0.5873796826165011, 0.41262031738349897)
+
+Tile Index: 171
+Center: (966, 138)
+Top-K Classes: ('ChlorophyteExtractinator', 'TeamBlockRed')
+Probabilities: (0.6678959971804926, 0.176609632445586)
+
+Tile Index: 172
+Center: (966, 230)
+Top-K Classes: ('LunarOre', 'FossilOre')
+Probabilities: (0.5, 0.5)
+
+Tile Index: 173
+Center: (966, 322)
+Top-K Classes: ('CageBuggy', 'Candelabras')
+Probabilities: (0.20988743606062896, 0.1595865638179013)
+
+Tile Index: 174
+Center: (966, 414)
+Top-K Classes: ('Furnaces', 'MetalBars')
+Probabilities: (0.410232617293175, 0.1872663726150877)
+
+Tile Index: 175
+Center: (966, 506)
+Top-K Classes: ('PlatinumCandelabra', 'Platforms')
+Probabilities: (0.2622321885670962, 0.25853113787467186)
+
+Tile Index: 176
+Center: (966, 598)
+Top-K Classes: ('TinBrick', 'JunglePlants')
+Probabilities: (0.5058702998985691, 0.11603627245381344)
+
+Tile Index: 177
+Center: (966, 690)
+Top-K Classes: ('Crimsand', 'Furnaces')
+Probabilities: (0.20429036903120149, 0.1791870833531943)
+
+Tile Index: 178
+Center: (966, 782)
+Top-K Classes: ('Platforms', 'TeamBlockRedPlatform')
+Probabilities: (0.2294776042329741, 0.13251589443337547)
+
+Tile Index: 179
+Center: (966, 874)
+Top-K Classes: ('ChristmasTree', 'SillyStreamerGreen')
+Probabilities: (0.3685177509187604, 0.3043510619475865)
+
+Tile Index: 180
+Center: (966, 966)
+Top-K Classes: ('PeaceCandle', 'Crimsand')
+Probabilities: (0.24607975165415458, 0.2101131343289632)
+
+Tile Index: 181
+Center: (966, 1058)
+Top-K Classes: ('Campfire', 'Sinks')
+Probabilities: (0.5870325828761718, 0.24197861643545773)
+
+Tile Index: 182
+Center: (966, 1150)
+Top-K Classes: ('Candelabras', 'TeamBlockYellowPlatform')
+Probabilities: (0.20884898505886118, 0.19294194121089187)
+
+Tile Index: 183
+Center: (966, 1242)
+Top-K Classes: ('Dressers', 'LavaLamp')
+Probabilities: (0.3627655971485377, 0.16921245944421445)
+
+Tile Index: 184
+Center: (966, 1334)
+Top-K Classes: ('GoldBirdCage', 'TeamBlockRedPlatform')
+Probabilities: (0.8768447548922066, 0.06157762255389673)
+
+Tile Index: 185
+Center: (966, 1426)
+Top-K Classes: ('Plants2', 'Painting6X4')
+Probabilities: (0.7027250094689407, 0.2972749905310593)
+
+Tile Index: 186
+Center: (966, 1488)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.7739635925982346, 0.13221064303615496)
+
+Tile Index: 187
+Center: (1058, 46)
+Top-K Classes: ('Crimsand', 'ReefBlock')
+Probabilities: (0.3136525713359366, 0.2568588125490053)
+
+Tile Index: 188
+Center: (1058, 138)
+Top-K Classes: ('Tombstones', 'Bamboo')
+Probabilities: (0.19894403982985318, 0.17150577990617405)
+
+Tile Index: 189
+Center: (1058, 230)
+Top-K Classes: ('CrackedGreenDungeonBrick', 'Dressers')
+Probabilities: (0.19096115727420496, 0.15309940194448865)
+
+Tile Index: 190
+Center: (1058, 322)
+Top-K Classes: ('SlimeBlock', 'Pearlwood')
+Probabilities: (0.32631940047520513, 0.1142368005277943)
+
+Tile Index: 191
+Center: (1058, 414)
+Top-K Classes: ('GoldMouseCage', 'FleshIce')
+Probabilities: (0.23409054117332287, 0.21111572977815213)
+
+Tile Index: 192
+Center: (1058, 506)
+Top-K Classes: ('Shadewood', 'Crimsand')
+Probabilities: (0.208579839599673, 0.18881150974415972)
+
+Tile Index: 193
+Center: (1058, 598)
+Top-K Classes: ('SmoothSandstone', 'Crimsand')
+Probabilities: (0.7505123828695835, 0.17389711969722038)
+
+Tile Index: 194
+Center: (1058, 690)
+Top-K Classes: ('Crimsand', 'SulphurButterflyJar')
+Probabilities: (0.5121254047754459, 0.30252296990661354)
+
+Tile Index: 195
+Center: (1058, 782)
+Top-K Classes: ('SmoothSandstone', 'Crimsand')
+Probabilities: (0.3801986559742784, 0.30241087896558155)
+
+Tile Index: 196
+Center: (1058, 874)
+Top-K Classes: ('VortexBrick', 'Dressers')
+Probabilities: (0.31667266283402895, 0.25481510283191694)
+
+Tile Index: 197
+Center: (1058, 966)
+Top-K Classes: ('SlimeBlock', 'RichMahogany')
+Probabilities: (0.6988514114958542, 0.30114858850414583)
+
+Tile Index: 198
+Center: (1058, 1058)
+Top-K Classes: ('Crimsand', 'SlimeBlock')
+Probabilities: (0.4867224779351345, 0.40341362253562235)
+
+Tile Index: 199
+Center: (1058, 1150)
+Top-K Classes: ('MushroomBlock', 'Crimsand')
+Probabilities: (0.6064494951752321, 0.20074733432736083)
+
+Tile Index: 200
+Center: (1058, 1242)
+Top-K Classes: ('PottedLavaPlants', 'Loom')
+Probabilities: (0.8586199545037019, 0.07115299435644565)
+
+Tile Index: 201
+Center: (1058, 1334)
+Top-K Classes: ('Dressers', 'LihzahrdAltar')
+Probabilities: (0.31180670517799863, 0.20469018045409315)
+
+Tile Index: 202
+Center: (1058, 1426)
+Top-K Classes: ('PicnicTable', 'Crimsand')
+Probabilities: (0.8017975931358515, 0.10606984126265026)
+
+Tile Index: 203
+Center: (1058, 1488)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 204
+Center: (1150, 46)
+Top-K Classes: ('Crimsand', 'ReefBlock')
+Probabilities: (0.41303866972941566, 0.3212174928517707)
+
+Tile Index: 205
+Center: (1150, 138)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.30028980156101126, 0.2057061287514662)
+
+Tile Index: 206
+Center: (1150, 230)
+Top-K Classes: ('PlanteraBulb', 'AmethystSquirrelCage')
+Probabilities: (0.4756223996805471, 0.3350667099455193)
+
+Tile Index: 207
+Center: (1150, 322)
+Top-K Classes: ('VortexBrick', 'SnowBlock')
+Probabilities: (0.2917509098239521, 0.2681602069369995)
+
+Tile Index: 208
+Center: (1150, 414)
+Top-K Classes: ('Crimsand', 'PlanteraBulb')
+Probabilities: (0.22987911141672676, 0.20220416504555608)
+
+Tile Index: 209
+Center: (1150, 506)
+Top-K Classes: ('PicnicTable', 'PlanteraBulb')
+Probabilities: (0.34451479401118906, 0.32500383929959953)
+
+Tile Index: 210
+Center: (1150, 598)
+Top-K Classes: ('Crimsand', 'AdamantiteForge')
+Probabilities: (0.27603182386694974, 0.15529980039111385)
+
+Tile Index: 211
+Center: (1150, 690)
+Top-K Classes: ('Crimsand', 'LihzahrdAltar')
+Probabilities: (0.4388806349926488, 0.34679762110436363)
+
+Tile Index: 212
+Center: (1150, 782)
+Top-K Classes: ('PicnicTable', 'Containers')
+Probabilities: (0.6465741572878136, 0.10564403370569156)
+
+Tile Index: 213
+Center: (1150, 874)
+Top-K Classes: ('Crimsand', 'SteampunkBoiler')
+Probabilities: (0.4584004404900954, 0.16658041171792595)
+
+Tile Index: 214
+Center: (1150, 966)
+Top-K Classes: ('SlimeBlock', 'Dressers')
+Probabilities: (0.9060188949529662, 0.09398110504703382)
+
+Tile Index: 215
+Center: (1150, 1058)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.8776725742403916, 0.12232742575960842)
+
+Tile Index: 216
+Center: (1150, 1150)
+Top-K Classes: ('PottedLavaPlants', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 217
+Center: (1150, 1242)
+Top-K Classes: ('PottedLavaPlants', 'Crimsand')
+Probabilities: (0.6146904542570507, 0.18241857288365335)
+
+Tile Index: 218
+Center: (1150, 1334)
+Top-K Classes: ('PicnicTable', 'Crimsand')
+Probabilities: (0.364139174514603, 0.1785836617569031)
+
+Tile Index: 219
+Center: (1150, 1426)
+Top-K Classes: ('PlanteraBulb', 'PicnicTable')
+Probabilities: (0.26176701278294595, 0.19044555579583736)
+
+Tile Index: 220
+Center: (1150, 1488)
+Top-K Classes: ('SnowBlock', 'AmethystSquirrelCage')
+Probabilities: (0.904120238511461, 0.09587976148853901)
+
+Tile Index: 221
+Center: (1242, 46)
+Top-K Classes: ('ChlorophyteExtractinator', 'TeamBlockRed')
+Probabilities: (0.3691344757503897, 0.2964571677738848)
+
+Tile Index: 222
+Center: (1242, 138)
+Top-K Classes: ('TeamBlockRedPlatform', 'Lavafall')
+Probabilities: (0.1851878734402687, 0.13377320156221495)
+
+Tile Index: 223
+Center: (1242, 230)
+Top-K Classes: ('TreeDiamond', 'Chairs')
+Probabilities: (0.351897008515511, 0.16923511043260125)
+
+Tile Index: 224
+Center: (1242, 322)
+Top-K Classes: ('Crimsand', 'Safes')
+Probabilities: (0.39372330882027934, 0.19276870466254264)
+
+Tile Index: 225
+Center: (1242, 414)
+Top-K Classes: ('SteampunkBoiler', 'Crimsand')
+Probabilities: (0.3665799068487315, 0.25112421103651156)
+
+Tile Index: 226
+Center: (1242, 506)
+Top-K Classes: ('SnowBlock', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 227
+Center: (1242, 598)
+Top-K Classes: ('WoodenSpikes', 'Crimsand')
+Probabilities: (0.38350283378212885, 0.25652076620413045)
+
+Tile Index: 228
+Center: (1242, 690)
+Top-K Classes: ('SmoothSandstone', 'WoodenSpikes')
+Probabilities: (0.6259885623196704, 0.13255247894230177)
+
+Tile Index: 229
+Center: (1242, 782)
+Top-K Classes: ('MasterTrophyBase', 'KryptonMoss')
+Probabilities: (0.3117894758415898, 0.2880349210877944)
+
+Tile Index: 230
+Center: (1242, 874)
+Top-K Classes: ('FleshBlock', 'EchoBlock')
+Probabilities: (0.7360844324967515, 0.16973236118720875)
+
+Tile Index: 231
+Center: (1242, 966)
+Top-K Classes: ('MagmaSnailCage', 'Cog')
+Probabilities: (0.64656563100466, 0.21225162325991556)
+
+Tile Index: 232
+Center: (1242, 1058)
+Top-K Classes: ('LilyPad', 'Cattail')
+Probabilities: (0.608232078448951, 0.39176792155104895)
+
+Tile Index: 233
+Center: (1242, 1150)
+Top-K Classes: ('LihzahrdAltar', 'TeamBlockRedPlatform')
+Probabilities: (0.33460153253061753, 0.21803056012577096)
+
+Tile Index: 234
+Center: (1242, 1242)
+Top-K Classes: ('Loom', 'LargePiles')
+Probabilities: (0.3800983436817747, 0.18877871045965205)
+
+Tile Index: 235
+Center: (1242, 1334)
+Top-K Classes: ('MeatGrinder', 'ZebraSwallowtailButterflyJar')
+Probabilities: (1.0, 0.0)
+
+Tile Index: 236
+Center: (1242, 1426)
+Top-K Classes: ('LivingMahoganyLeaves', 'BubbleMachine')
+Probabilities: (0.740245805018164, 0.25975419498183605)
+
+Tile Index: 237
+Center: (1242, 1488)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.5849681870123016, 0.11214377936766005)
+
+Tile Index: 238
+Center: (1334, 46)
+Top-K Classes: ('SmoothSandstone', 'CrackedGreenDungeonBrick')
+Probabilities: (0.9136202811377556, 0.08637971886224438)
+
+Tile Index: 239
+Center: (1334, 138)
+Top-K Classes: ('Crimsand', 'Dressers')
+Probabilities: (0.2783076571965487, 0.12742669027457754)
+
+Tile Index: 240
+Center: (1334, 230)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.8173371842554624, 0.09655409747776923)
+
+Tile Index: 241
+Center: (1334, 322)
+Top-K Classes: ('Ebonsand', 'Crimsand')
+Probabilities: (0.27592051004628576, 0.16429393517702226)
+
+Tile Index: 242
+Center: (1334, 414)
+Top-K Classes: ('Dressers', 'Crimsand')
+Probabilities: (0.40618418239852017, 0.4013209949336342)
+
+Tile Index: 243
+Center: (1334, 506)
+Top-K Classes: ('SmoothSandstone', 'Crimsand')
+Probabilities: (0.8353852262777851, 0.08353197015165748)
+
+Tile Index: 244
+Center: (1334, 598)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.26723669990491544, 0.21485817544648755)
+
+Tile Index: 245
+Center: (1334, 690)
+Top-K Classes: ('SlimeBlock', 'Crimsand')
+Probabilities: (0.5873513618637899, 0.18356620157867126)
+
+Tile Index: 246
+Center: (1334, 782)
+Top-K Classes: ('SlimeBlock', 'Dressers')
+Probabilities: (0.6191062539409209, 0.3069848907727738)
+
+Tile Index: 247
+Center: (1334, 874)
+Top-K Classes: ('Crimsand', 'SnowBlock')
+Probabilities: (0.2177909825972383, 0.19798329816400972)
+
+Tile Index: 248
+Center: (1334, 966)
+Top-K Classes: ('Crimsand', 'SmoothSandstone')
+Probabilities: (0.24007842678078, 0.17344585984521943)
+
+Tile Index: 249
+Center: (1334, 1058)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.4778107290389554, 0.13638596238204784)
+
+Tile Index: 250
+Center: (1334, 1150)
+Top-K Classes: ('Crimsand', 'MeteoriteBrick')
+Probabilities: (0.2157046723125205, 0.10565571232577405)
+
+Tile Index: 251
+Center: (1334, 1242)
+Top-K Classes: ('SnowBlock', 'AmethystSquirrelCage')
+Probabilities: (0.4875986740491767, 0.19082682149249897)
+
+Tile Index: 252
+Center: (1334, 1334)
+Top-K Classes: ('SnowBlock', 'AmethystSquirrelCage')
+Probabilities: (0.39027097019854323, 0.20314531679350958)
+
+Tile Index: 253
+Center: (1334, 1426)
+Top-K Classes: ('Crimsand', 'LivingMahogany')
+Probabilities: (0.2147217914163568, 0.18810998794219594)
+
+Tile Index: 254
+Center: (1334, 1488)
+Top-K Classes: ('SnowBlock', 'LivingMahogany')
+Probabilities: (0.2930982415811885, 0.19864901298993232)
+
+Tile Index: 255
+Center: (1421, 46)
+Top-K Classes: ('PicnicTable', 'WoodenSpikes')
+Probabilities: (0.1889396185467396, 0.11798532626738582)
+
+Tile Index: 256
+Center: (1421, 138)
+Top-K Classes: ('Dressers', 'PottedCrystalPlants')
+Probabilities: (0.4176118602805236, 0.18181846586236886)
+
+Tile Index: 257
+Center: (1421, 230)
+Top-K Classes: ('PlanteraBulb', 'Dressers')
+Probabilities: (0.2209892654654864, 0.19902400682533894)
+
+Tile Index: 258
+Center: (1421, 322)
+Top-K Classes: ('Crimsand', 'Furnaces')
+Probabilities: (0.24368907649780894, 0.1938361904645502)
+
+Tile Index: 259
+Center: (1421, 414)
+Top-K Classes: ('PicnicTable', 'PlanteraBulb')
+Probabilities: (0.3106727965564098, 0.2010571565660701)
+
+Tile Index: 260
+Center: (1421, 506)
+Top-K Classes: ('Crimsand', 'SmoothSandstone')
+Probabilities: (0.42466555803324463, 0.1748918274769348)
+
+Tile Index: 261
+Center: (1421, 598)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.30236358450374634, 0.3000220313974069)
+
+Tile Index: 262
+Center: (1421, 690)
+Top-K Classes: ('PicnicTable', 'Crimsand')
+Probabilities: (0.5076531268719418, 0.4232405750165783)
+
+Tile Index: 263
+Center: (1421, 782)
+Top-K Classes: ('Crimsand', 'PicnicTable')
+Probabilities: (0.5469698892437413, 0.10895014287824616)
+
+Tile Index: 264
+Center: (1421, 874)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.7786115012582365, 0.12594309655132963)
+
+Tile Index: 265
+Center: (1421, 966)
+Top-K Classes: ('SnowBlock', 'Crimsand')
+Probabilities: (0.7786115012582365, 0.12594309655132963)
+
+Tile Index: 266
+Center: (1421, 1058)
+Top-K Classes: ('Hellforge', 'PicnicTable')
+Probabilities: (0.670240151527595, 0.07403826588872435)
+
+Tile Index: 267
+Center: (1421, 1150)
+Top-K Classes: ('LeafBlock', 'AmethystSquirrelCage')
+Probabilities: (0.2665466447805095, 0.2602115950102291)
+
+Tile Index: 268
+Center: (1421, 1242)
+Top-K Classes: ('Hellforge', 'AmethystSquirrelCage')
+Probabilities: (0.47239071660335247, 0.16429863055078234)
+
+Tile Index: 269
+Center: (1421, 1334)
+Top-K Classes: ('AmethystSquirrelCage', 'WoodenSpikes')
+Probabilities: (0.4385220019144205, 0.19842776903819545)
+
+Tile Index: 270
+Center: (1421, 1426)
+Top-K Classes: ('AmethystSquirrelCage', 'TinPlating')
+Probabilities: (0.2848066859064021, 0.17160550308638167)
+
+Tile Index: 271
+Center: (1421, 1488)
+Top-K Classes: ('LivingMahogany', 'WoodenSpikes')
+Probabilities: (0.7705113494475933, 0.14390129763292484)
 

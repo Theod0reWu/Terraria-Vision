@@ -6,10 +6,15 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+import torchvision.datasets as datasets
+import torchvision.transforms as transforms
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+grayscale_transform = transforms.Grayscale(num_output_channels=1)
+
 dataset = RandomPairDataset(os.path.join("..", "dataset"))
+
 data_loader = DataLoader(dataset, batch_size=256)
 
 model = EmbeddingNetwork(embedding_dim=128).to(device)
@@ -27,6 +32,8 @@ data_loader_iter = iter(data_loader)
 for train_iter in tqdm(range(num_iter)):
     model.train()
     img1, img2, labels = next(data_loader_iter)
+    img1 = grayscale_transform(img1)
+    img2 = grayscale_transform(img2)
     
     img1, img2, labels = img1.to(device), img2.to(device), labels.to(device)
 

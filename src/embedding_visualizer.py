@@ -5,6 +5,7 @@ import numpy as np
 from dataset import PairDataset
 import matplotlib.pyplot as plt
 from siamese_model import EmbeddingNetwork
+import torchvision.transforms as transforms
 
 model = EmbeddingNetwork()
 
@@ -16,6 +17,7 @@ model.eval()
 pd = PairDataset(os.path.join("..", "dataset"))
 embeddings = []
 class_labels = []
+grayscale_transform = transforms.Grayscale(num_output_channels=1)
 
 for i in range(5):
 
@@ -23,6 +25,8 @@ for i in range(5):
     num_tiles = len(os.listdir(dirname))
     for j in range(num_tiles):
         img = pd.load_image(i, j).unsqueeze(0)
+        img = grayscale_transform(img)
+
         embeddings.append(model(img).detach().numpy())
         class_labels.append(i)
 
